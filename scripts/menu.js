@@ -9,13 +9,12 @@
   const slotScreen = document.getElementById("slot-screen");
   const optionsScreen = document.getElementById("options-screen");
   const creditsScreen = document.getElementById("credits-screen");
-  const gamePlaceholder = document.getElementById("game-placeholder");
+  const gameScreen = document.getElementById("game-screen");
 
   const continueButton = document.querySelector('[data-action="continue"]');
   const saveSlotsContainer = document.getElementById("save-slots");
   const slotTitle = document.getElementById("slot-title");
   const slotDescription = document.getElementById("slot-description");
-  const placeholderSaveInfo = document.getElementById("placeholder-save-info");
 
   const fullscreenButton = document.getElementById("fullscreen-button");
   const masterVolume = document.getElementById("master-volume");
@@ -45,6 +44,10 @@
   }
 
   function showMainMenu() {
+    if (window.RumboPrologue && window.RumboPrologue.isRunning()) {
+      window.RumboPrologue.stop();
+    }
+
     refreshMainMenu();
     showScreen(mainMenu);
   }
@@ -169,10 +172,13 @@
       return;
     }
 
-    placeholderSaveInfo.textContent =
-      "Espacio " + (index + 1) + " · Día " + save.day + " · " + save.location;
+    showScreen(gameScreen);
 
-    showScreen(gamePlaceholder);
+    if (window.RumboPrologue) {
+      window.RumboPrologue.start(index);
+    } else {
+      showToast("No se pudo iniciar el prólogo.");
+    }
   }
 
   function formatDate(isoDate) {
@@ -328,6 +334,15 @@
 
   function handleKeyboard(event) {
     const key = event.key.toLowerCase();
+    const activeScreen = getActiveScreen();
+
+    if (activeScreen === gameScreen) {
+      if (key === "escape") {
+        event.preventDefault();
+        showMainMenu();
+      }
+      return;
+    }
 
     if (key === "arrowdown" || key === "s") {
       if (document.activeElement && document.activeElement.type === "range") {
@@ -364,7 +379,7 @@
         return;
       }
 
-      if (getActiveScreen() !== mainMenu) {
+      if (activeScreen !== mainMenu) {
         showMainMenu();
       }
     }
