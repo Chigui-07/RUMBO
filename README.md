@@ -303,4 +303,32 @@
 - Los detalles todavía pendientes, como diálogos finales, minijuego familiar, diseño exacto del collar, mapas, sprites, interfaces, balance y comportamiento de sistemas, pertenecen a la fase de diseño jugable e implementación.
 - A partir de este punto, trabajar más a fondo el prólogo significa comenzar a convertir la planificación narrativa en el juego real.
 
+## Día 2 — Inicio del juego normal
+
+- A partir del Día 2 se activan los sistemas normales de RUMBO: agua, hambre/energía física, descanso/energía mental, reloj, ciclo día/noche, Armónicos, gastos y formas de conseguirlos.
+- Nicolás despierta aproximadamente a las 7:00 de la mañana.
+- Antes de salir de su habitación hay dos acciones obligatorias: cambiarse de ropa y ordenar el cuarto, ya que podría pasar bastante tiempo antes de volver a dormir allí dependiendo de las decisiones del jugador.
+- El jugador podrá revisar el celular nuevo. Al principio el único chat importante será el de Molly, quien escribió cinco minutos antes que llegaría a la casa de Nicolás en cinco minutos; al revisar el mensaje, ella estará prácticamente llegando.
+- Los padres de Nicolás siguen dormidos a esa hora.
+- Molly llega a la casa de Nicolás y ambos pueden preparar juntos un desayuno sencillo usando la cocina.
+- La comida preparada puede fotografiarse para `Gastronomía` antes de comerla y también sirve para introducir la recuperación normal de energía/hambre.
+- Antes de salir, Nicolás deja una nota a sus padres para avisar que está con Molly y que volverán más tarde.
+- Ese día la mochila será obligatoria para salir, pero las llaves no serán un requisito como en el prólogo.
+- Nicolás y Molly van a la casa de Molly para que ella recoja su mochila, suministros y libreta.
+- Los padres de Molly también siguen dormidos. Podrán visitar a Emily y dejar otra nota avisando que salieron juntos y que regresarán más tarde.
+- La mañana será una salida libre/preparatoria. La intención es regresar durante la tarde para almorzar con las familias y despedirse oficialmente antes de comenzar a pasar noches fuera de casa.
+- Se propone que la primera noche fuera sea en un hotel económico dentro de Ciudad de Guatemala, de modo que el jugador aprenda reservas, pago, instalación en la habitación y descanso estando todavía cerca de las familias.
+- La despedida de la tarde no debe sentirse como una partida definitiva; las familias simplemente recalcan que llamen, mantengan los celulares cargados, cuiden sus Armónicos y avisen dónde dormirán.
+
+### La colonia durante la mañana del Día 2
+
+- Al salir temprano de la casa de Molly, la colonia se verá mucho más vacía que durante el día: pocos peatones, poco tránsito y varios comercios todavía cerrados.
+- La hora del día afectará visualmente la actividad del vecindario y la disponibilidad de algunos negocios.
+- La colonia tendrá más extensión de la mostrada en el prólogo. Hasta ahora se conoce principalmente el recorrido desde la casa de Nicolás hacia la casa de Molly y, desde allí, hacia la salida/calle principal.
+- El Día 2 puede abrir por primera vez la zona situada detrás o al otro lado de la casa de Nicolás, dejando claro que el jugador todavía no conocía toda su propia colonia.
+- Un parque de la colonia será una de las primeras áreas completamente libres para explorar durante esta mañana.
+- El parque puede funcionar como espacio de descanso, encuentro con vecinos, animales comunes, plantas, pequeños objetos y futuras actividades opcionales.
+- No todo debe estar activo a las 7:00: algunos NPC aún no habrán salido, ciertos comercios permanecerán cerrados y algunas actividades aparecerán únicamente más tarde.
+- Esta expansión permite que volver a la colonia en diferentes horarios produzca experiencias distintas y evita que el vecindario se convierta solamente en un corredor entre las dos casas y la salida principal.
+
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
