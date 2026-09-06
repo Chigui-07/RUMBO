@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071f33">
+  <title>RUMBO</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main id="app" class="app-shell">
+    <section id="main-menu" class="screen screen--active" aria-labelledby="game-title">
+      <div class="menu-background" aria-hidden="true">
+        <div class="star star--1"></div>
+        <div class="star star--2"></div>
+        <div class="star star--3"></div>
+        <div class="cloud cloud--left"></div>
+        <div class="cloud cloud--right"></div>
+
+        <div class="compass-ring">
+          <span class="compass-point compass-point--north">N</span>
+          <span class="compass-point compass-point--east">E</span>
+          <span class="compass-point compass-point--south">S</span>
+          <span class="compass-point compass-point--west">O</span>
+        </div>
+
+        <div class="globe">
+          <div class="globe__rotation">
+            <span class="land land--1"></span>
+            <span class="land land--2"></span>
+            <span class="land land--3"></span>
+            <span class="land land--4"></span>
+          </div>
+          <span class="globe__line globe__line--vertical"></span>
+          <span class="globe__line globe__line--horizontal"></span>
+        </div>
+
+        <div class="travel-route travel-route--left"></div>
+        <div class="travel-route travel-route--right"></div>
+      </div>
+
+      <div class="menu-content">
+        <header class="brand">
+          <h1 id="game-title" class="brand__title">RUMBO</h1>
+          <p class="brand__studio">CHIGUI STUDIOS</p>
+        </header>
+
+        <nav class="main-menu__actions" aria-label="Menú principal">
+          <button class="menu-button" type="button" data-action="continue">Continuar</button>
+          <button class="menu-button" type="button" data-action="new-game">Nueva partida</button>
+          <button class="menu-button" type="button" data-action="load-game">Cargar partida</button>
+          <button class="menu-button" type="button" data-action="options">Opciones</button>
+          <button class="menu-button" type="button" data-action="credits">Créditos</button>
+          <button class="menu-button" type="button" data-action="exit">Salir</button>
+        </nav>
+      </div>
+    </section>
+
+    <section id="slot-screen" class="screen panel-screen" aria-labelledby="slot-title">
+      <div class="panel">
+        <h2 id="slot-title">Partidas</h2>
+        <p id="slot-description" class="panel__description"></p>
+        <div id="save-slots" class="save-slots"></div>
+        <button class="secondary-button" type="button" data-action="back-main">Volver</button>
+      </div>
+    </section>
+
+    <section id="options-screen" class="screen panel-screen" aria-labelledby="options-title">
+      <div class="panel panel--wide">
+        <h2 id="options-title">Opciones</h2>
+
+        <div class="options-grid">
+          <div class="option-row">
+            <div>
+              <h3>Pantalla completa</h3>
+              <p>Activa o desactiva el modo de pantalla completa del navegador.</p>
+            </div>
+            <button id="fullscreen-button" class="secondary-button" type="button">Cambiar</button>
+          </div>
+
+          <label class="option-row option-row--slider">
+            <div>
+              <h3>Volumen general</h3>
+              <p>Se aplicará cuando incorporemos música y sonidos.</p>
+            </div>
+            <input id="master-volume" type="range" min="0" max="100" step="1">
+          </label>
+
+          <label class="option-row option-row--slider">
+            <div>
+              <h3>Escala de interfaz</h3>
+              <p>Ajusta ligeramente el tamaño de menús y textos.</p>
+            </div>
+            <input id="ui-scale" type="range" min="90" max="115" step="5">
+          </label>
+
+          <label class="option-row option-row--toggle">
+            <div>
+              <h3>Reducir movimiento</h3>
+              <p>Detiene el giro del mundo y las animaciones decorativas.</p>
+            </div>
+            <input id="reduce-motion" type="checkbox">
+          </label>
+        </div>
+
+        <p class="controls-note">Menú: ↑ ↓ / W S · Aceptar: Enter / E · Volver: Esc</p>
+        <button class="secondary-button" type="button" data-action="back-main">Volver</button>
+      </div>
+    </section>
+
+    <section id="credits-screen" class="screen panel-screen" aria-labelledby="credits-title">
+      <div class="panel">
+        <h2 id="credits-title">Créditos</h2>
+        <div class="credits-block">
+          <p><strong>RUMBO</strong></p>
+          <p>Un juego de Chigui Studios</p>
+          <p>Diseño, mundo y desarrollo en construcción.</p>
+        </div>
+        <button class="secondary-button" type="button" data-action="back-main">Volver</button>
+      </div>
+    </section>
+
+    <section id="game-placeholder" class="screen panel-screen" aria-labelledby="placeholder-title">
+      <div class="panel">
+        <p class="eyebrow">RUMBO · DESARROLLO</p>
+        <h2 id="placeholder-title">Inicio del prólogo</h2>
+        <p id="placeholder-save-info" class="panel__description"></p>
+        <p>El menú ya puede entrar a una partida. Aquí construiremos después la habitación de Nicolás y el prólogo real.</p>
+        <button class="secondary-button" type="button" data-action="back-main">Volver al menú</button>
+      </div>
+    </section>
+
+    <div id="confirm-dialog" class="dialog-backdrop" hidden>
+      <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+        <h2 id="dialog-title">Confirmar</h2>
+        <p id="dialog-message"></p>
+        <div class="dialog__actions">
+          <button id="dialog-cancel" class="secondary-button" type="button">Cancelar</button>
+          <button id="dialog-confirm" class="menu-button menu-button--compact" type="button">Confirmar</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <span id="version-label" class="version-label">v0.0.1</span>
+  </main>
+
+  <script src="scripts/storage.js" defer></script>
+  <script src="scripts/menu.js" defer></script>
+</body>
+</html>
