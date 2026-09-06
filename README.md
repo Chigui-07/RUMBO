@@ -393,6 +393,12 @@
 - `Figueroa` será el sector más natural y elevado o montañoso de Ciudad de Juan Carrera. Tendrá caminos para caminar y descansar, desniveles, miradores o senderos urbanos y podrá incluir un parque importante o una zona de agua como elemento central.
 - Figueroa también tendrá algunos hoteles, cafeterías y bares ambientales, pero en menor cantidad que Carronsio. Su función principal será ofrecer una pausa del entorno urbano más denso y permitir paseos, descanso, fotografía y actividades relacionadas con el paisaje.
 - Los tres sectores seguirán formando una sola ciudad y se conectarán entre sí por calles y rutas peatonales; no serán mapas aislados. Sus diferencias estarán en la concentración de actividades, el ambiente y el tipo de exploración que ofrecen.
-- Ciudad de Juan Carrera seguirá conectando con Fuente de Cristal, Colonia de Todos los Santos y Colonia San Miguel desde distintos extremos de su mapa.
+- La distribución general tendrá a `Figueroa` en una posición más central dentro de Ciudad de Juan Carrera.
+- `Las Vainas` conectará directamente con `Colonia Fuente de Cristal` y también tendrá una conexión hacia `Colonia de Todos los Santos`.
+- `Carronsio` conectará con `Las Vainas`, con `Figueroa` y con `Colonia San Miguel`, funcionando como uno de los principales sectores de enlace de la ciudad.
+- `Figueroa` conectará directamente con `Colonia de Todos los Santos` y se mezclará urbanísticamente tanto con `Carronsio` como con `Las Vainas`, de modo que los límites entre los tres sectores puedan sentirse graduales en ciertas calles.
+- `Colonia de Todos los Santos` tendrá por tanto dos accesos internos principales hacia Ciudad de Juan Carrera: uno por Figueroa y otro por una parte de Las Vainas.
+- La lógica general de conexiones será: `Fuente de Cristal ↔ Las Vainas ↔ Carronsio ↔ San Miguel`, con `Figueroa` en medio enlazando especialmente con Carronsio, Las Vainas y Todos los Santos.
+- Esta estructura permitirá varios recorridos posibles por Zona 4 y evitará que todos los desplazamientos dependan de una sola avenida o camino lineal.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
