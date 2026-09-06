@@ -255,5 +255,24 @@
 - Molly se niega de manera natural y le insiste en que vayan primero a la casa de Nicolás, porque ella conoce la fiesta sorpresa y necesita llevarlo allí sin revelarla.
 - El diálogo debe sonar razonable para Nicolás y el jugador, aunque retrospectivamente quede claro que Molly estaba evitando que él descubriera o retrasara la sorpresa.
 - Esta escena puede incluir otra indirecta leve de Molly sobre la importancia de llegar temprano, sin mencionar la fiesta.
+- En momentos serios, Nicolás y Molly dejan de usar los apodos habituales y se llaman por sus nombres completos. En esta escena Molly puede responder con un `Nicolás.` firme cuando él insiste en acompañarla primero, dejando claro que habla en serio sin revelar la razón.
+
+### Fiesta final del prólogo
+
+- Nicolás y Molly llegan juntos a la casa de Nicolás cuando ya está oscuro.
+- La casa puede verse extrañamente tranquila o con las luces principales apagadas para preparar la sorpresa sin hacerla demasiado evidente.
+- Nicolás entra primero y la familia activa la sorpresa: sus padres, Molly, Emily y los padres de Molly ya estaban coordinados para celebrar su cumpleaños.
+- La revelación debe hacer que las indirectas anteriores de Molly y Emily cobren sentido de forma retrospectiva.
+- Emily puede bromear con que casi arruina la sorpresa y Molly reaccionar porque tuvo que evitar que Nicolás descubriera todo durante el día.
+- La fiesta será pequeña y familiar, no un evento multitudinario, para mantener el tono íntimo del prólogo.
+- Habrá comida, pastel, música/ambiente y conversaciones opcionales con cada miembro de ambas familias.
+- El jugador recuperará el control durante parte de la fiesta para hablar con los presentes, comer, revisar objetos y participar en pequeñas interacciones en vez de ver únicamente una cinemática larga.
+- Molly entregará durante la fiesta su regalo personal para Nicolás; el objeto definitivo sigue pendiente. Si el jugador vio antes el paquete en su habitación, ahora entenderá qué era.
+- La fiesta tendrá dos fotografías personales principales: una fotografía con ambas familias juntas y otra de Nicolás y Molly juntos.
+- Estas dos fotografías se guardarán en la sección de recuerdos personales y no se mezclarán con las fotografías de lugares, gastronomía, fauna o flora.
+- La foto de Nicolás y Molly debe sentirse como un recuerdo de amistad importante del primer día, no como una mecánica romántica obligatoria.
+- Tras la celebración, la noche puede cerrarse con un momento tranquilo en casa: Nicolás revisa brevemente el Diario, las fotos obtenidas o los recuerdos del día antes de descansar.
+- El prólogo no debe resolver todas las posibilidades de Ciudad de Guatemala; quedan tiendas, encargos, sectores del mapa, lugares y actividades pendientes para regresar después.
+- El cierre debe transmitir que la primera misión terminó, pero que el viaje de RUMBO apenas comenzó.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
