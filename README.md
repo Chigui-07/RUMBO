@@ -262,7 +262,7 @@
 - Nicolás y Molly llegan juntos a la casa de Nicolás cuando ya está oscuro.
 - La casa puede verse extrañamente tranquila o con las luces principales apagadas para preparar la sorpresa sin hacerla demasiado evidente.
 - Nicolás entra primero y la familia activa la sorpresa: sus padres, Molly, Emily y los padres de Molly ya estaban coordinados para celebrar su cumpleaños.
-- La revelación debe hacer que las indirectas anteriores de Molly y Emily cobren sentido de forma retrospectiva.
+- La revelación debe hacer que las indirectas anteriores de Molly y Emily cobren sentido de forma retrospectivamente.
 - Emily puede bromear con que casi arruina la sorpresa y Molly reaccionar porque tuvo que evitar que Nicolás descubriera todo durante el día.
 - La fiesta será pequeña y familiar, no un evento multitudinario.
 - La celebración tendrá gameplay libre entre momentos narrativos: hablar con cada familiar, revisar la decoración, comer, tomar fotografías de recuerdo y participar en una actividad familiar.
@@ -401,4 +401,197 @@
 - La lógica general de conexiones será: `Fuente de Cristal ↔ Las Vainas ↔ Carronsio ↔ San Miguel`, con `Figueroa` en medio enlazando especialmente con Carronsio, Las Vainas y Todos los Santos.
 - Esta estructura permitirá varios recorridos posibles por Zona 4 y evitará que todos los desplazamientos dependan de una sola avenida o camino lineal.
 
-> Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
+## Método oficial de producción por zonas
+
+- A partir de esta etapa, RUMBO se desarrollará zona por zona con un ciclo fijo: `diseñar narrativamente y conceptualmente al 100% → construir el gameplay real → probar y corregir → pasar a la siguiente zona`.
+- No se continuará expandiendo en profundidad Carronsio, Las Vainas, Figueroa, Todos los Santos, San Miguel, Zona 1, Zona 5 u otras áreas mientras el bloque actual no esté realmente construido y funcional.
+- El objetivo es evitar muchas zonas a medio terminar y conseguir bloques jugables completos con identidad propia.
+- La primera zona que seguirá este proceso completo será `Colonia Fuente de Cristal`.
+- Una vez Fuente de Cristal esté implementada y probada, se elegirá la siguiente zona, se cerrará narrativamente al 100% y después se construirá.
+
+## Colonia Fuente de Cristal — diseño conceptual cerrado
+
+### Estructura residencial general
+
+- Fuente de Cristal será una colonia residencial ficticia de Zona 4 y el hogar inicial de Nicolás y Molly.
+- La mayoría de viviendas serán decorativas/no accesibles para que la colonia se sienta habitada sin obligar a crear interiores innecesarios.
+- Las viviendas importantes serán la casa de Nicolás, la casa de Molly y la casa de Rafael.
+- La parada de bus ya existente dentro de la zona residencial se conserva; no se añadirá una segunda parada cerca de la Salida 1.
+- La colonia tendrá calles y ramas que no siempre conducen a una misión importante; algunas llevarán a más viviendas y pequeños servicios para que el mapa no se sienta como un corredor diseñado únicamente para objetivos.
+
+### Fuente central
+
+- La `Fuente de Cristal` será el principal símbolo y punto de referencia de la colonia.
+- Su agua será purificada y permitirá rellenar gratuitamente las botellas de Nicolás y Molly.
+- Esto hace que volver a la colonia tenga utilidad práctica incluso después de avanzar en el juego.
+- La fuente será un lugar oficial fotografiable del Diario.
+- Desde el área de la fuente se separarán varios caminos residenciales.
+
+### Caminos desde la fuente y Salida 2
+
+- Un camino llevará principalmente a casas decorativas y a una pequeña tienda de barrio para que esa rama tenga una función jugable.
+- Otro camino conducirá a la casa de Rafael, que inicialmente no será accesible y se desbloqueará después de ayudarlo.
+- Otra sección conectará con la `Salida 2` hacia la futura `Colonia El Tomajillo`, en Zona 5.
+- El Tomajillo queda confirmado como futura colonia ficticia de Zona 5, pero su diseño queda congelado hasta que llegue su turno de producción.
+
+### Camino hacia Salida 1
+
+- El recorrido hacia la Salida 1 incluirá más viviendas, la casa de Molly, Parque Nisten, una segunda tienda pequeña, una cancha comunitaria, calles residenciales adicionales y finalmente un sector con carreteras/cruces que marque la transición hacia el área comercial.
+- La cancha comunitaria podrá alojar pequeños eventos o minijuegos más adelante.
+- La transición hacia el comercio debe sentirse gradual: calles más amplias, más tránsito, cruces y semáforos, y menos predominio de viviendas.
+- Después de esta transición comienza el área comercial cotidiana de Fuente de Cristal.
+
+### Tiendas pequeñas de barrio
+
+- Fuente de Cristal tendrá dos pequeñas tiendas residenciales.
+- Su surtido será intencionalmente limitado para que el supermercado del área comercial tenga una ventaja clara.
+- Venderán principalmente golosinas, gaseosas, agua embotellada, snacks y uno o pocos alimentos sencillos.
+- La tienda de la rama residencial puede centrarse en productos básicos rápidos.
+- La tienda cercana a Parque Nisten puede diferenciarse con jugos, helados/paletas y snacks apropiados para consumir en el parque.
+- No serán minimercados completos ni competirán con la panadería, supermercado o restaurantes.
+
+## Parque Nisten
+
+- `Parque Nisten` será uno de los espacios principales de Fuente de Cristal y tendrá un hueco oficial como lugar fotografiable del Diario.
+- Tendrá una zona de bancas para descansar y activar conversaciones opcionales entre Nicolás y Molly.
+- Tendrá un área de juegos infantiles con columpios, resbaladero, sube y baja, trepadores u otros juegos sencillos.
+- Nicolás y Molly podrán usar algunos juegos mediante pequeñas animaciones y momentos casuales.
+- Tendrá una zona con mesas donde pueden comer alimentos del inventario, descansar o simplemente conversar.
+- Las mesas pueden activar conversaciones opcionales y momentos cotidianos sin necesidad de que siempre exista una misión.
+- El parque tendrá senderos, árboles, basureros, iluminación/faroles, un letrero con el nombre del parque y un espacio abierto donde puedan aparecer vecinos, niños o perros.
+- Tendrá una zona natural útil para observación y fotografía de fauna/flora.
+
+### Fauna y encuentros fotográficos en Parque Nisten
+
+- El parque puede contener hormiguero, hormigas, gatos, perros, mariposas, moscas, mosquitos, lombrices y otras especies comunes apropiadas.
+- No todo animal que aparezca será automáticamente una oportunidad fotográfica.
+- Los animales comunes podrán tener encuentros especiales con probabilidades por visita o por período de tiempo.
+- La probabilidad no se recalculará constantemente al cruzar el límite del mapa para evitar que el jugador abuse entrando y saliendo repetidamente.
+- Algunos encuentros dependerán de condiciones: las lombrices pueden ser más probables después de lluvia; ciertos insectos pueden variar según horario o clima.
+- El hormiguero puede funcionar como punto relativamente estable.
+- Gatos y perros tendrán individuos/comportamientos especiales que sí activan una fotografía válida.
+- Las palomas no serán un objetivo especialmente frecuente en Fuente de Cristal; sus retos importantes se reservarán para áreas más urbanas donde encajen mejor.
+- Los porcentajes concretos de aparición se balancearán durante pruebas y no quedan fijados definitivamente en esta fase.
+
+## Rafael — vecino, taller y red de suministros
+
+- Rafael será uno de los primeros NPC recurrentes importantes fuera de las familias.
+- Vive en Fuente de Cristal y posee o coordina un taller/negocio de herramientas, reparaciones y suministros especializados.
+- Al principio Nicolás y Molly lo conocerán como vecino de la colonia; después se convertirá en un contacto útil durante el viaje por Guatemala.
+
+### Primera misión de Rafael
+
+- La primera misión provisional se llamará `Un favor de vecino`.
+- Nicolás y Molly encuentran a Rafael con un problema relacionado con materiales/cajas y un carrito o medio de transporte pequeño averiado.
+- Él necesita llevar los materiales hasta su taller del área comercial y ellos se ofrecen a ayudar.
+- La misión sirve para enseñar naturalmente el recorrido de Fuente de Cristal sin sentirse como un tutorial artificial.
+- El recorrido puede pasar por la fuente, viviendas, casa de Molly, Parque Nisten, tienda cercana, Salida 1, carreteras y finalmente el área comercial.
+- Durante el trayecto Rafael puede comentar de manera natural dónde compran los vecinos, qué negocios están abriendo o qué calles suelen tener más tráfico.
+- Al llegar al taller, Rafael recompensa con una cantidad moderada de Armónicos y se desbloquean su casa, su taller y su contacto telefónico.
+- Después de la misión su casa podrá visitarse y Rafael será considerado amigo de Nicolás y Molly.
+
+### Utilidad permanente de Rafael
+
+- Rafael tendrá una pequeña red de talleres/puestos o sucursales distribuidas por diferentes zonas de Guatemala.
+- No tiene que atender personalmente todos los locales: puede coordinarlos y tener empleados o puntos de recogida.
+- Su taller de Fuente de Cristal será el establecimiento original y donde Nicolás y Molly lo conocen personalmente.
+- Su red venderá productos especializados que no deberían estar disponibles en todos los supermercados o tiendas.
+- Ejemplos: baterías y pilas, repuestos de linterna, herramientas, llaves inglesas, destornilladores, cinta fuerte, kits de reparación, cargadores, adaptadores y otros suministros que puedan adquirir usos futuros.
+- Las herramientas no deberán existir únicamente para una misión concreta; se intentará reutilizarlas en distintas situaciones.
+- Un mismo objeto puede solucionar reparaciones, encargos o problemas de exploración diferentes.
+- Molly tendrá especial relación jugable con este sistema porque su mochila gestiona principalmente herramientas y suministros.
+- Desde el teléfono se podrá consultar el catálogo de Rafael, comprar o pedir productos y seleccionar un punto de recogida.
+- Más adelante se podrá considerar entrega a hoteles u otros alojamientos válidos a cambio de un costo adicional y tiempo de espera.
+- Rafael puede avisar por teléfono cuando lleguen nuevos productos o repuestos.
+- Su red será principalmente una mecánica de la aventura dentro de Guatemala; otros países tendrán comerciantes, cadenas o sistemas propios.
+
+## Área comercial de Fuente de Cristal
+
+- El área comercial representa el comercio cotidiano de los residentes y no debe competir con la identidad artística/cafetera de Las Vainas.
+- Tendrá un supermercado principal, panadería, farmacia, taller de Rafael, comedor/restaurante económico, papelería/librería pequeña, lavandería, peluquería/barbería, ferretería general y algunos locales decorativos o cerrados.
+- No todos los edificios necesitan un interior completo; algunos existirán para dar densidad y credibilidad urbana.
+- También podrá contener pequeños encargos o trabajos que permitan conseguir Armónicos, como entregas, ayuda con pedidos o tareas sencillas de negocios.
+
+### Regla de objetos comprables
+
+- Regla oficial: `si un objeto aparece en un catálogo y cuesta Armónicos, debe tener una utilidad jugable`.
+- Los objetos dibujados solamente como decoración no necesitan sistema propio ni ser comprables.
+- La utilidad puede ser pequeña, pero debe existir.
+- Esta regla evita catálogos gigantes de objetos sin función y reduce trabajo de implementación.
+
+### Función de los comercios
+
+- El supermercado venderá alimentos, bebidas, ingredientes, productos de higiene y suministros comunes.
+- Las tiendas residenciales serán más cómodas pero tendrán poco surtido y pueden ser menos convenientes en precio.
+- La panadería venderá panes, productos sencillos y algunas comidas que puedan relacionarse con Gastronomía cuando corresponda.
+- El comedor/restaurante venderá comida ya preparada: más cómoda pero generalmente más cara que cocinar.
+- La farmacia venderá artículos básicos de cuidado personal y objetos que puedan prevenir o resolver molestias menores del viaje sin convertir RUMBO en un juego de supervivencia pesado.
+- La papelería podrá vender cuadernos, lápices, marcadores, cinta, sobres u otros objetos reutilizables en misiones/investigaciones.
+- La lavandería servirá para lavar ropa cuando los protagonistas lleven tiempo viajando sin regresar a casa.
+- La peluquería/barbería podrá conectarse con personalización estética.
+- La ferretería venderá herramientas y materiales comunes; Rafael se reservará productos más especializados, reparaciones y repuestos.
+- Se favorecerán objetos multiuso como cinta, cuerda, herramientas, linterna, baterías o material de escritura para reutilizar sistemas en distintas misiones.
+
+## Cocina, ingredientes y gastronomía
+
+- Cocinar será una mecánica compartida entre Nicolás y Molly.
+- El supermercado, mercados y otros negocios podrán vender ingredientes además de comida lista para consumir.
+- Las casas y algunos alojamientos con cocina permitirán preparar recetas.
+- Cocinar será normalmente más barato que depender siempre de restaurantes, a cambio de ingredientes y tiempo del juego.
+- Algunas recetas serán conocidas desde el principio y otras se aprenderán mediante NPC, familia, libros/recetas, gastronomía probada o exploración de nuevas regiones.
+- No toda comida preparada crea una entrada en Gastronomía: una comida cotidiana sencilla puede existir solamente como alimento.
+- Cuando una receta corresponda a un plato relevante registrado en Gastronomía, podrá fotografiarse y completar su entrada.
+- Un mismo plato puede descubrirse de varias formas: comerlo en un restaurante, aprenderlo de un NPC/familiar o prepararlo después de obtener la receta e ingredientes.
+- La colección registra el plato, no obliga a conseguirlo de una sola manera.
+
+### Molly y la cocina
+
+- Molly tendrá una afinidad especial por cocinar sin convertir la mecánica en exclusiva de ella.
+- Nicolás también puede cocinar y ambos pueden preparar comida juntos.
+- Cocinar hace feliz a Molly y puede convertirse en uno de sus espacios jugables propios durante los viajes.
+- La comida preparada por Molly puede tener un pequeño beneficio adicional de ánimo/energía mental por la dedicación y el cariño puestos en prepararla, además de la recuperación física normal de la receta.
+- Cuando Nicolás pruebe una receta nueva preparada por Molly y reaccione positivamente, el momento puede contribuir de manera pequeña y natural al desarrollo de su vínculo.
+- Cocinar juntos también puede activar conversaciones opcionales y pequeños momentos cotidianos.
+- No se podrá explotar la relación cocinando repetidamente el mismo alimento: los progresos importantes vendrán de primeras veces, recetas especiales, situaciones narrativas o conversaciones, no de repetir una acción infinitamente.
+- A lo largo del viaje Molly podrá aprender recetas guatemaltecas y más adelante de otros países, haciendo que su progresión culinaria acompañe toda la aventura.
+
+## Diario y organización de fotografías
+
+### Jerarquía geográfica
+
+- El Diario mantendrá la jerarquía `Guatemala → Departamento de Guatemala → Ciudad de Guatemala → Zona 4 → Colonia Fuente de Cristal`.
+- Los sectores pequeños pertenecen a los niveles superiores y comparten su progreso: una fotografía o descubrimiento de Fuente de Cristal también forma parte de la colección general de Zona 4 y, por extensión, de Ciudad de Guatemala y Guatemala.
+- No se crearán copias distintas de la misma fotografía; el mismo registro podrá visualizarse desde diferentes niveles de la jerarquía.
+- Fuente de Cristal indica el lugar exacto donde se obtuvo el registro, mientras Zona 4 agrupa los registros de todos sus sectores.
+
+### Separación de colecciones
+
+- `Lugares/Mundo`, `Fauna`, `Flora`, `Gastronomía` y `Recuerdos` son colecciones separadas.
+- Dentro de la sección geográfica de Fuente de Cristal solo aparecerán lugares, elementos o características realmente importantes/únicas de la colonia.
+- Un gato fotografiado en Parque Nisten se registra en `Fauna → Gato`; su ficha puede indicar que fue fotografiado en Parque Nisten, Fuente de Cristal, Zona 4, pero no ocupa un hueco geográfico dentro de Fuente de Cristal.
+- Lo mismo ocurre con flora y gastronomía: conservan la ubicación de obtención pero pertenecen a sus propias colecciones.
+- `Recuerdos` queda reservado para fotografías narrativas, familiares, de amistad o de momentos especiales.
+- Se descarta el sistema de fotografías libres para reducir trabajo: solamente se tomarán fotografías con una función definida dentro de Lugares, Fauna, Flora, Gastronomía o Recuerdos.
+
+### Huecos fotográficos programados
+
+- Las colecciones podrán tener huecos preparados desde el diseño aunque el contenido se implemente más adelante.
+- Los huecos sirven para saber qué registros cuentan para completar una colección o zona.
+- Algunos huecos podrán mostrar nombre/silueta y otros permanecer como `???` para evitar spoilers.
+- Cada registro oficial se obtiene una sola vez y queda completado permanentemente.
+- Fuente de Cristal tendrá como mínimo huecos geográficos claros para `Fuente de Cristal` y `Parque Nisten`; otros lugares solo se añadirán si realmente tienen suficiente identidad para merecer un registro.
+
+## Estado de Fuente de Cristal
+
+- La planificación conceptual/narrativa de la zona residencial y comercial de `Colonia Fuente de Cristal` se considera cerrada al 100% para comenzar implementación.
+- Los detalles numéricos de balance, precios, probabilidades exactas, sprites, dimensiones finales, diálogos completos y código se resolverán durante construcción y pruebas.
+- A partir de este punto no se seguirán añadiendo sistemas grandes a Fuente de Cristal antes de empezar a construirla; cualquier cambio posterior deberá surgir de necesidades detectadas durante implementación/pruebas.
+
+## Próximo paso de desarrollo real
+
+- Antes de construir el mapa jugable de Fuente de Cristal, el primer elemento real que se implementará será el `menú oficial de RUMBO`.
+- El menú debe ser funcional antes de entrar al juego.
+- Su diseño visual, opciones, navegación y comportamiento se planificarán a continuación antes de escribir el resto del gameplay.
+- Una vez el menú funcione correctamente, comenzará la construcción del primer bloque jugable de Fuente de Cristal siguiendo el método oficial de producción por zonas.
+
+> El README continúa funcionando como bitácora principal de diseño y desarrollo; a partir de la siguiente etapa comenzarán a añadirse los primeros archivos reales del juego.
