@@ -377,6 +377,10 @@
 - `Ciudad de Juan Carrera` será un sector ficticio dentro de Zona 4, no una ciudad administrativa separada de Ciudad de Guatemala. El uso de la palabra “Ciudad” formará parte de su nombre propio dentro del juego.
 - Será el área más poblada y activa de Zona 4, con mayor densidad de peatones, tráfico, edificios, comercio, servicios, oficinas, restaurantes y actividades.
 - En Ciudad de Juan Carrera se concentrarán especialmente los rasgos investigados para Zona 4: edificios reutilizados, murales, cafés, espacios culturales, comercios especializados, tiendas de ropa/vintage, música, oficinas, restaurantes, servicios y hospedaje.
+- Su interior será de uso mixto, evitando dividir artificialmente cada actividad en un distrito aislado. Podrán convivir cafeterías, restaurantes, hoteles, lugares de trabajo, oficinas, talleres, tiendas, arte urbano, galerías y otros espacios culturales dentro de las mismas calles o manzanas.
+- Los bares podrán existir como parte de la ambientación y vida adulta de la ciudad, especialmente en horarios apropiados, pero Nicolás y Molly no consumirán alcohol ni participarán en servicios restringidos por su edad.
+- Ciudad de Juan Carrera funcionará como un gran punto de conexión interna de Zona 4: desde diferentes calles o accesos se podrá regresar hacia Fuente de Cristal, avanzar hacia Colonia de Todos los Santos o dirigirse hacia Colonia San Miguel.
+- Estas rutas internas permitirán que el jugador atraviese Zona 4 caminando y que las colonias se sientan integradas al mismo espacio urbano, no como mapas independientes sin relación entre sí.
 - La tarjeta de ubicación principal podrá mostrarse como: `CIUDAD DE JUAN CARRERA` / `Zona 4 — Ciudad de Guatemala`.
 - La intención es que las tres colonias funcionen como bordes residenciales y puertas hacia zonas vecinas, mientras Ciudad de Juan Carrera actúa como el gran centro de actividad propio de Zona 4.
 - La progresión espacial desde Fuente de Cristal quedará así: `Fuente de Cristal → comercio/trabajo local → franja de transición → Ciudad de Juan Carrera`.
