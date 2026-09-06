@@ -4,7 +4,7 @@
 
 ### Prólogo / Tutorial — Inicio en casa de Nicolás
 
-- El prólogo comienza el día del cumpleaños número 16 de Nicolás.
+- El próólogo comienza el día del cumpleaños número 16 de Nicolás.
 - La primera escena será una animación gráfica separada del gameplay normal: Nicolás duerme y piensa brevemente sobre su cumpleaños.
 - Después habrá una segunda animación en la que despierta con ánimos.
 - El control del jugador comienza cuando Nicolás sale de la cama.
@@ -146,6 +146,18 @@
 - Después del permiso, Molly prepara su mochila, toma sus llaves y recoge alimentos/suministros.
 - Nicolás le pasa a Molly la comida que ya llevaba para que ella gestione los alimentos.
 
+### Exploración libre de la casa de Molly
+
+- Después de la charla con sus padres se desbloquean las zonas restantes de la casa.
+- La habitación de Molly tendrá más objetos personales que el resto de la casa; al entrar por primera vez ella se pondrá algo nerviosa porque Nicolás puede ver recuerdos y objetos privados relacionados con su amistad.
+- Puede haber fotografías, recuerdos, notas, dibujos u objetos que Nicolás le haya dado años atrás.
+- En la habitación estará visible, sin explicación, el regalo que Molly planea darle a Nicolás durante la fiesta nocturna. El jugador podrá verlo sin comprender aún su importancia.
+- Como posible regalo se considera un pequeño llavero de brújula personalizado por Molly, que después pueda conservarse como recuerdo/objeto principal. La elección definitiva del regalo queda pendiente.
+- Si Nicolás intenta revisar el regalo antes de tiempo, Molly puede detenerlo de forma nerviosa sin revelar qué es.
+- La habitación de Emily tendrá una atmósfera más relajada: libros, objetos escolares, colecciones, dibujos y recuerdos familiares, sin la misma vergüenza de Molly.
+- La habitación de los padres de Molly existirá para mantener lógica espacial, pero será secundaria y sencilla: cama grande, armario, cómoda, espejo, fotos familiares y pocos objetos interactivos.
+- Con esto se considera cerrada la casa de Molly a nivel conceptual.
+
 ### Secreto de la fiesta de cumpleaños
 
 - Nicolás no sabe que habrá una fiesta esa noche.
@@ -153,5 +165,69 @@
 - Durante la salida, Molly puede dejar indirectas accidentales que no sean obvias para el jugador en ese momento.
 - Emily puede ser todavía peor guardando el secreto y decir frases ambiguas que Molly intente cortar.
 - Al regresar por la noche, esas pistas anteriores deben adquirir sentido retrospectivamente.
+
+### Salida conjunta y zona social
+
+- Tras obtener permiso, Nicolás y Molly pueden explorar libremente la colonia y entrar a tiendas que antes estaban temporalmente bloqueadas.
+- Al salir de la colonia se llega a una calle principal y luego a una zona más social con más caminos, tránsito, peatones, NPC reales, animales y comercios variados.
+- Pueden aparecer negocios como panaderías, supermercados, ferreterías/herrerías, restaurantes, tiendas de ropa y otros comercios cotidianos.
+- Habrá zona de buses/Transmetro y zona de taxis. El jugador podrá elegir el transporte que prefiera.
+- Dentro del transporte habrá oportunidades de conversación, revisar el Diario, consultar mochilas, beber agua, usar los teléfonos y observar el trayecto. Los viajes posteriores podrán tener opción de saltarse.
+- Nicolás y Molly tendrán un teléfono propio cada uno; el sistema de teléfono se detallará más adelante.
+- Puede ocurrir una escena casual en el camino donde un perro ladra y Molly se sobresalta, acercándose por reflejo a Nicolás; la escena se mantiene amistosa, breve y humorística.
+
+### Tarjetas de ubicación
+
+- Al entrar a una zona nueva aparecerá durante unos segundos una tarjeta discreta con el nombre del lugar, sin detener el gameplay.
+- Las tarjetas no mostrarán hora del día.
+- Pueden mostrar jerarquía, por ejemplo: `PASEO DE LA SEXTA` / `Centro Histórico — Zona 1`.
+- Se usarán para zonas grandes, lugares concretos, casas y comercios como Palacio Nacional, Mercado Central, Casa de Molly, Supermercado o Panadería.
+- La primera visita puede marcar internamente el lugar como descubierto para que luego aparezca en el mapa.
+
+### Tiempo durante el prólogo
+
+- Durante el prólogo el sistema normal de día/noche estará temporalmente controlado por secuencias narrativas.
+- El mundo no podrá hacerse de noche libremente mientras Nicolás y Molly sigan explorando La Sexta o el Centro Histórico.
+- El cambio a tarde/noche ocurrirá únicamente cuando la historia llegue al regreso.
+- Después del prólogo el sistema normal de tiempo funcionará libremente.
+
+### Paseo de la Sexta — Primera zona amplia del Centro Histórico
+
+- Independientemente de si usan bus/Transmetro o taxi, ambos transportes llevarán al área general de La Sexta, aunque cada uno tendrá un punto de llegada diferente.
+- La Sexta será la primera zona urbana grande con comercios, restaurantes, edificios, NPC, animales comunes y caminos secundarios.
+- Será una zona importante para comprar ropa casual dentro de Guatemala: pantalones de lona/jeans, camisas, camisetas, ropa de vestir, vestidos, faldas, sudaderas, zapatos y accesorios.
+- Además de ropa casual, cada departamento podrá tener uno o dos conjuntos especiales o representativos disponibles en comercios apropiados.
+- Los restaurantes de La Sexta podrán introducir las primeras oportunidades fotográficas de gastronomía.
+- La Sexta también podrá tener actividades culturales o ambientales variables para que volver a la zona no siempre produzca exactamente la misma experiencia.
+- Algunas bancas podrán servir para descansar y activar conversaciones casuales entre Nicolás y Molly.
+- El recorrido del prólogo seguirá de La Sexta hacia la Plaza de la Constitución y luego al Palacio Nacional, con el Mercado Central como otro lugar accesible ese día.
+
+### Mapa como descubrimiento/tutorial
+
+- Al llegar a una zona amplia, Nicolás y Molly pueden darse cuenta de que no saben exactamente por dónde continuar.
+- Un NPC puede recomendarles conseguir un mapa, activando una actividad/misión para buscarlo y comprarlo.
+- El mapa no genera conocimiento mágico del entorno: organiza lugares ya conocidos o descubiertos y ayuda a orientarse.
+- Sin mapa, el jugador no recibirá orientación detallada y deberá guiarse por señales, NPC o exploración; con mapa tendrá una referencia clara.
+- El mapa general será de Guatemala y se dividirá por departamento actual, ciudad/zona y secciones descubiertas.
+
+### Filosofía de misiones y actividades opcionales
+
+- Las misiones secundarias no serán necesarias para avanzar en la historia principal ni para abandonar una zona.
+- Sí serán necesarias para completar al 100% las zonas, países y el juego.
+- Las actividades deben sentirse como exploración, no como una lista artificial de tareas.
+- No todas las misiones serán de animales. Podrán incluir observación, investigación, encargos de NPC, descubrir lugares, actividades urbanas, gastronomía, fotografía, pequeños retos de movimiento o interacción y situaciones propias de cada región.
+- Las instrucciones pueden ser explícitas cuando el jugador necesite aprender una mecánica concreta; no se obligará al jugador a adivinar reglas importantes.
+- Algunas actividades serán globales/reutilizables y podrán aparecer en cualquier país donde tengan sentido; otras serán exclusivas de un lugar o región.
+
+### Fotografía de animales comunes
+
+- Los animales comunes existen en muchos países y por ello sus retos de fotografía no se consideran exclusivos de Guatemala.
+- No cualquier gato, perro, paloma u otro animal común será una oportunidad fotográfica.
+- De vez en cuando aparecerá un individuo o comportamiento especial que sí active una oportunidad.
+- La paloma será un ejemplo de reto más exigente: deberá aparecer sola y el jugador tendrá que acercarse a una distancia adecuada sin espantarla.
+- Acercarse demasiado o hacerlo de forma brusca hará que la paloma huya.
+- Cuando la distancia sea adecuada, el juego podrá indicar claramente la acción requerida para evitar que el jugador tenga que adivinar la mecánica.
+- Esta misión/actividad de paloma no aparecerá en el prólogo; se reservará para más adelante porque sería demasiado exigente para la primera sesión.
+- Otros animales comunes podrán requerir comportamientos diferentes para conseguir su registro, de forma que incluso las especies cotidianas tengan cierto reto.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
