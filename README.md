@@ -385,4 +385,14 @@
 - La intención es que las tres colonias funcionen como bordes residenciales y puertas hacia zonas vecinas, mientras Ciudad de Juan Carrera actúa como el gran centro de actividad propio de Zona 4.
 - La progresión espacial desde Fuente de Cristal quedará así: `Fuente de Cristal → comercio/trabajo local → franja de transición → Ciudad de Juan Carrera`.
 
+### Sectores de Ciudad de Juan Carrera
+
+- Ciudad de Juan Carrera se dividirá internamente en tres sectores principales: `Carronsio`, `Las Vainas` y `Figueroa`.
+- `Carronsio` será el sector con mayor concentración de hoteles y bares de los tres. También podrá incluir restaurantes, oficinas, comercios y otros servicios, con una actividad especialmente marcada durante la tarde y la noche. Los bares funcionarán como parte del entorno urbano; Nicolás y Molly no consumirán alcohol ni accederán a servicios restringidos por edad.
+- `Las Vainas` será el sector artístico de la ciudad. Tendrá la mayor concentración de pinturas, murales, arte urbano, pequeñas galerías y espacios creativos, además de ser la parte de Ciudad de Juan Carrera con más cafeterías. Será uno de los mejores sectores para aprovechar la cámara y registrar arte en el Diario.
+- `Figueroa` será el sector más natural y elevado o montañoso de Ciudad de Juan Carrera. Tendrá caminos para caminar y descansar, desniveles, miradores o senderos urbanos y podrá incluir un parque importante o una zona de agua como elemento central.
+- Figueroa también tendrá algunos hoteles, cafeterías y bares ambientales, pero en menor cantidad que Carronsio. Su función principal será ofrecer una pausa del entorno urbano más denso y permitir paseos, descanso, fotografía y actividades relacionadas con el paisaje.
+- Los tres sectores seguirán formando una sola ciudad y se conectarán entre sí por calles y rutas peatonales; no serán mapas aislados. Sus diferencias estarán en la concentración de actividades, el ambiente y el tipo de exploración que ofrecen.
+- Ciudad de Juan Carrera seguirá conectando con Fuente de Cristal, Colonia de Todos los Santos y Colonia San Miguel desde distintos extremos de su mapa.
+
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
