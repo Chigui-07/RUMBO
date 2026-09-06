@@ -296,4 +296,11 @@
 - Dormir será la acción que cierre definitivamente el primer día y el prólogo.
 - El cierre debe transmitir que la primera misión terminó, pero que quedan zonas, encargos, lugares, relaciones y sistemas por descubrir en los días siguientes.
 
+### Estado del prólogo
+
+- La planificación narrativa general del prólogo se considera terminada.
+- La historia ya tiene principio, desarrollo, misión principal, exploración libre, regreso, fiesta y cierre nocturno definidos.
+- Los detalles todavía pendientes, como diálogos finales, minijuego familiar, diseño exacto del collar, mapas, sprites, interfaces, balance y comportamiento de sistemas, pertenecen a la fase de diseño jugable e implementación.
+- A partir de este punto, trabajar más a fondo el prólogo significa comenzar a convertir la planificación narrativa en el juego real.
+
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
