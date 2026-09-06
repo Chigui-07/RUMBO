@@ -332,7 +332,10 @@
 - El parque puede funcionar como espacio de descanso, encuentro con vecinos, animales comunes, plantas, pequeños objetos y futuras actividades opcionales.
 - La colonia incluirá más residencias alrededor de las casas de Nicolás y Molly para que el lugar se sienta como un vecindario real y no como un corredor de gameplay.
 - La colonia tendrá al menos dos salidas diferentes.
-- La `Salida 1` será la entrada/salida principal de Fuente de Cristal hacia el resto de Zona 4. Desde allí se podrá avanzar hacia otros sectores residenciales y hacia el núcleo urbano/cultural de la zona.
+- La `Salida 1` será la entrada/salida principal de Fuente de Cristal hacia el resto de Zona 4. Al cruzarla no se llegará de inmediato al centro: primero aparecerá una franja de comercio y trabajo pensada principalmente para los habitantes de la colonia.
+- Esta franja local podrá incluir panadería, farmacia, pequeño supermercado, talleres, oficinas, restaurantes sencillos, servicios personales y otros negocios cotidianos; su objetivo es mostrar dónde compran y trabajan muchos residentes de Fuente de Cristal.
+- Después de esta zona comercial/laboral habrá un sector de transición menos denso, con menos peatones y comercios, más espacio entre edificios y una sensación clara de estar cambiando de sector.
+- Al continuar después de esa transición se llegará al núcleo urbano principal y más poblado de Zona 4.
 - La `Salida 2` estará en otro extremo de Fuente de Cristal y conectará a pie con Zona 5. El jugador no necesitará tomar bus ni taxi: tras abandonar la colonia y caminar un tramo urbano, cruzará naturalmente a una colonia o sector ficticio de Zona 5 cuando esa zona esté disponible.
 - La transición caminando entre Fuente de Cristal y Zona 5 servirá para enseñar que algunas zonas de una misma ciudad pueden recorrerse directamente sin transporte.
 - Caminar será gratuito y permitirá descubrir NPC, comercios, fauna, flora, calles y actividades, pero consumirá más tiempo, agua y energía. El transporte podrá ahorrar tiempo y esfuerzo a cambio de Armónicos.
@@ -366,12 +369,16 @@
 
 - Zona 4 se organizará con varias áreas residenciales ficticias cerca de sus bordes y un núcleo urbano/cultural en la parte intermedia.
 - `Colonia Fuente de Cristal` será la colonia principal y estará situada cerca del borde con Zona 5. Además de ser el hogar de Nicolás y Molly, funcionará como una de las puertas geográficas hacia una futura colonia o sector de Zona 5.
-- Se creará una segunda colonia residencial ficticia cerca del lado de Zona 4 que conecta con Zona 1. Esta colonia servirá como transición residencial hacia la dirección del Centro Histórico y podrá tener su propio nombre, parque, residencias y pequeños servicios cotidianos.
-- Se creará una tercera colonia residencial ficticia cerca del sector de Zona 4 próximo a Zona 8. También tendrá identidad propia y funcionará como otra frontera jugable hacia una zona vecina.
-- Los nombres de estas dos colonias adicionales quedan pendientes y se elegirán cuando se defina mejor su personalidad visual y función dentro de la zona.
-- Las colonias no ocuparán toda Zona 4. Entre ellas habrá uno o varios sectores urbanos ficticios inspirados en la identidad real investigada de Zona 4.
-- El área central será donde se concentren principalmente los rasgos investigados: edificios reutilizados, murales, cafés, espacios culturales, comercios especializados, tiendas de ropa/vintage, música, servicios, oficinas, restaurantes y hospedaje, adaptados al tono y necesidades de RUMBO.
-- La intención es que cada colonia funcione como una frontera natural hacia otra zona de Ciudad de Guatemala, mientras que el centro de Zona 4 funcione como el principal espacio de exploración propia de la zona.
-- La Salida 1 de Fuente de Cristal conducirá primero hacia este núcleo y hacia las otras áreas de Zona 4, no directamente a otra zona. Esto permitirá que el jugador termine de conocer Zona 4 antes de usar sus conexiones con el resto de la ciudad.
+- `Colonia de Todos los Santos` será una segunda colonia residencial ficticia situada hacia el borde de Zona 4 que conecta con Zona 1. Servirá como transición residencial en dirección al Centro Histórico y tendrá identidad propia, viviendas y pequeños servicios cotidianos.
+- `Colonia San Miguel` será una tercera colonia residencial ficticia situada hacia el sector de Zona 4 que conecta con las zonas 8 y 9. Tendrá dos conexiones exteriores principales, una hacia Zona 8 y otra hacia Zona 9, por lo que podrá sentirse más transitada que las otras colonias.
+- Las colonias no ocuparán toda Zona 4. Entre ellas habrá varios sectores urbanos ficticios inspirados en la identidad real investigada de Zona 4.
+- Desde la Salida 1 de Fuente de Cristal se recorrerá primero una zona comercial/laboral de escala local, después una franja de transición menos densa y finalmente el principal núcleo urbano de Zona 4.
+- Ese núcleo urbano se llamará `Ciudad de Juan Carrera`.
+- `Ciudad de Juan Carrera` será un sector ficticio dentro de Zona 4, no una ciudad administrativa separada de Ciudad de Guatemala. El uso de la palabra “Ciudad” formará parte de su nombre propio dentro del juego.
+- Será el área más poblada y activa de Zona 4, con mayor densidad de peatones, tráfico, edificios, comercio, servicios, oficinas, restaurantes y actividades.
+- En Ciudad de Juan Carrera se concentrarán especialmente los rasgos investigados para Zona 4: edificios reutilizados, murales, cafés, espacios culturales, comercios especializados, tiendas de ropa/vintage, música, oficinas, restaurantes, servicios y hospedaje.
+- La tarjeta de ubicación principal podrá mostrarse como: `CIUDAD DE JUAN CARRERA` / `Zona 4 — Ciudad de Guatemala`.
+- La intención es que las tres colonias funcionen como bordes residenciales y puertas hacia zonas vecinas, mientras Ciudad de Juan Carrera actúa como el gran centro de actividad propio de Zona 4.
+- La progresión espacial desde Fuente de Cristal quedará así: `Fuente de Cristal → comercio/trabajo local → franja de transición → Ciudad de Juan Carrera`.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
