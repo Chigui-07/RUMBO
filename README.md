@@ -328,6 +328,13 @@
 - El Día 2 puede abrir por primera vez la zona situada detrás o al otro lado de la casa de Nicolás, dejando claro que el jugador todavía no conocía toda su propia colonia.
 - Un parque de la colonia será una de las primeras áreas completamente libres para explorar durante esta mañana.
 - El parque puede funcionar como espacio de descanso, encuentro con vecinos, animales comunes, plantas, pequeños objetos y futuras actividades opcionales.
+- La colonia incluirá más residencias alrededor de las casas de Nicolás y Molly para que el lugar se sienta como un vecindario real y no como un corredor de gameplay.
+- Una fuente central será el principal punto de referencia interno de la colonia y ayudará a unir visualmente sus distintas calles. Puede formar parte de una pequeña plazoleta o espacio común conectado con el parque y las zonas residenciales.
+- La colonia tendrá al menos dos salidas diferentes. La salida conocida durante el prólogo conduce hacia la ruta utilizada para llegar al Centro Histórico/Zona 1.
+- La segunda salida estará situada en otro extremo de la colonia y conducirá hacia una dirección distinta de Ciudad de Guatemala, permitiendo acceder a otras zonas sin tener que repetir siempre la misma salida.
+- Las dos salidas pueden tener características diferentes: una más comercial y transitada, con transporte frecuente; la otra más residencial o conectada a una avenida/ruta distinta, con otras opciones de transporte y destinos.
+- Todavía queda pendiente decidir a qué zona concreta conduce la segunda salida; la conexión real se definirá cuando se establezca con precisión la ubicación de la colonia dentro de Ciudad de Guatemala.
+- La colonia necesita un nombre propio que pueda aparecer en tarjetas de ubicación, mapas, conversaciones y direcciones; el nombre definitivo queda pendiente.
 - No todo debe estar activo a las 7:00: algunos NPC aún no habrán salido, ciertos comercios permanecerán cerrados y algunas actividades aparecerán únicamente más tarde.
 - Esta expansión permite que volver a la colonia en diferentes horarios produzca experiencias distintas y evita que el vecindario se convierta solamente en un corredor entre las dos casas y la salida principal.
 
