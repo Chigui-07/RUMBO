@@ -324,18 +324,21 @@
 
 - Al salir temprano de la casa de Molly, la colonia se verá mucho más vacía que durante el día: pocos peatones, poco tránsito y varios comercios todavía cerrados.
 - La hora del día afectará visualmente la actividad del vecindario y la disponibilidad de algunos negocios.
+- La colonia se llamará `Colonia Fuente de Cristal` y estará ubicada de forma ficticia dentro de la Zona 4 de Ciudad de Guatemala, cerca de los bordes que permiten conectar con Zona 1 y Zona 5.
+- La fuente central será el principal punto de referencia interno y la razón del nombre de la colonia. Puede formar parte de una pequeña plazoleta conectada con el parque y las calles residenciales.
 - La colonia tendrá más extensión de la mostrada en el prólogo. Hasta ahora se conoce principalmente el recorrido desde la casa de Nicolás hacia la casa de Molly y, desde allí, hacia la salida/calle principal.
 - El Día 2 puede abrir por primera vez la zona situada detrás o al otro lado de la casa de Nicolás, dejando claro que el jugador todavía no conocía toda su propia colonia.
 - Un parque de la colonia será una de las primeras áreas completamente libres para explorar durante esta mañana.
 - El parque puede funcionar como espacio de descanso, encuentro con vecinos, animales comunes, plantas, pequeños objetos y futuras actividades opcionales.
 - La colonia incluirá más residencias alrededor de las casas de Nicolás y Molly para que el lugar se sienta como un vecindario real y no como un corredor de gameplay.
-- Una fuente central será el principal punto de referencia interno de la colonia y ayudará a unir visualmente sus distintas calles. Puede formar parte de una pequeña plazoleta o espacio común conectado con el parque y las zonas residenciales.
-- La colonia tendrá al menos dos salidas diferentes. La salida conocida durante el prólogo conduce hacia la ruta utilizada para llegar al Centro Histórico/Zona 1.
-- La segunda salida estará situada en otro extremo de la colonia y conducirá hacia una dirección distinta de Ciudad de Guatemala, permitiendo acceder a otras zonas sin tener que repetir siempre la misma salida.
-- Las dos salidas pueden tener características diferentes: una más comercial y transitada, con transporte frecuente; la otra más residencial o conectada a una avenida/ruta distinta, con otras opciones de transporte y destinos.
-- Todavía queda pendiente decidir a qué zona concreta conduce la segunda salida; la conexión real se definirá cuando se establezca con precisión la ubicación de la colonia dentro de Ciudad de Guatemala.
-- La colonia necesita un nombre propio que pueda aparecer en tarjetas de ubicación, mapas, conversaciones y direcciones; el nombre definitivo queda pendiente.
+- La colonia tendrá al menos dos salidas diferentes.
+- La `Salida 1` será la conocida durante el prólogo: una salida más transitada/comercial que conduce hacia la ruta de transporte utilizada para llegar al Centro Histórico y Zona 1.
+- La `Salida 2` estará en otro extremo de Fuente de Cristal y conectará a pie con Zona 5. El jugador no necesitará tomar bus ni taxi: tras abandonar la colonia y caminar un tramo urbano, cruzará naturalmente a la nueva zona.
+- La transición caminando entre Fuente de Cristal y Zona 5 servirá para enseñar que algunas zonas de una misma ciudad pueden recorrerse directamente sin transporte.
+- Caminar será gratuito y permitirá descubrir NPC, comercios, fauna, flora, calles y actividades, pero consumirá más tiempo, agua y energía. El transporte podrá ahorrar tiempo y esfuerzo a cambio de Armónicos.
+- La primera sección de Zona 5 deberá sentirse más activa que Fuente de Cristal: edificios, comercios y centros comerciales, parques pequeños, escuelas/colegios, tráfico y mayor densidad de peatones.
+- No será necesario representar toda Zona 5 de una sola vez. Al principio se abrirá únicamente un sector cercano a la Salida 2 y el resto podrá descubrirse progresivamente.
 - No todo debe estar activo a las 7:00: algunos NPC aún no habrán salido, ciertos comercios permanecerán cerrados y algunas actividades aparecerán únicamente más tarde.
-- Esta expansión permite que volver a la colonia en diferentes horarios produzca experiencias distintas y evita que el vecindario se convierta solamente en un corredor entre las dos casas y la salida principal.
+- Esta expansión permite que volver a Fuente de Cristal y Zona 5 en diferentes horarios produzca experiencias distintas y evita que el vecindario se convierta solamente en un corredor entre las dos casas y la salida principal.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
