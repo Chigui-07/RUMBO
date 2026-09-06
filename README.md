@@ -353,4 +353,18 @@
 - Antes de diseñar cada zona nueva se investigarán sus rasgos, lugares, ambiente, usos urbanos, gastronomía, historia y tipos de actividad para evitar repetir los mismos conceptos con nombres diferentes.
 - El principio general será: terminar un bloque jugable con identidad propia, después expandir el mapa.
 
+### Jerarquía geográfica y mezcla de realidad con ficción
+
+- El mapa de RUMBO tendrá varios niveles de detalle. Para el inicio en Guatemala la jerarquía base será: `Guatemala → Departamento de Guatemala → Ciudad de Guatemala → Zona → sector/colonia/lugar`.
+- Un ejemplo directo será: `Guatemala → Departamento de Guatemala → Ciudad de Guatemala → Zona 4 → Colonia Fuente de Cristal`.
+- Los niveles grandes del mundo —países, departamentos, ciudades y zonas reales— conservarán su identidad y relaciones geográficas generales basadas en el mundo real.
+- Dentro de esos espacios podrán existir colonias, sectores, calles, negocios, hoteles, casas, parques y otros lugares inventados específicamente para RUMBO, siempre procurando que encajen con la identidad investigada del lugar real en el que se ubican.
+- Fuente de Cristal será una pequeña zona residencial ficticia dentro de Zona 4 y no representará toda la zona. Zona 4 tendrá otras áreas residenciales ficticias, posiblemente una o dos colonias adicionales, repartidas entre sectores urbanos con funciones distintas.
+- La Salida 1 de Fuente de Cristal será su conector principal hacia otras áreas de Zona 4. A partir de allí el jugador podrá descubrir sectores inventados que traduzcan a gameplay los rasgos reales investigados de Zona 4, como espacios culturales, murales, cafés, comercios especializados, edificios reutilizados, áreas de servicios y otros elementos adecuados.
+- La Salida 2 mantendrá la conexión futura con Zona 5 y podrá desembocar en otra colonia o sector ficticio de esa zona, respetando la continuidad general entre ambas zonas.
+- La filosofía será usar información real para dar autenticidad al mundo, pero no reconstruir cada calle y negocio de forma literal. El objetivo es crear una versión jugable y reconocible del mundo real con identidad propia.
+- Algunos lugares reales importantes podrán aparecer directamente cuando sean relevantes para historia, cultura, exploración o fotografía; otros espacios serán ficticios y cumplirán funciones narrativas o jugables.
+- Las invenciones no deberán contradecir de forma innecesaria la geografía real: los conectores entre zonas, la ubicación general y la identidad de cada área se investigarán antes de fijarse.
+- Esta mezcla permitirá evitar mapas repetitivos, reducir la necesidad de copiar ciudades completas y dar libertad para crear NPC, misiones, hoteles, tiendas y pequeñas historias originales sin perder la sensación de estar explorando Guatemala y, más adelante, el mundo real.
+
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
