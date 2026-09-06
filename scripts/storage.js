@@ -46,9 +46,16 @@
       createdAt: now,
       lastPlayedAt: now,
       day: 1,
-      location: "Inicio del prólogo",
+      location: "Habitación de Nicolás",
       playTimeSeconds: 0,
-      version: "0.0.1"
+      version: "0.0.1",
+      prologueState: {
+        scene: "bedroom",
+        x: 480,
+        y: 285,
+        introComplete: false,
+        changedClothes: false
+      }
     };
 
     saves[slotIndex] = save;
@@ -66,18 +73,27 @@
     return saves[slotIndex] || null;
   }
 
-  function touchSave(slotIndex) {
+  function updateSave(slotIndex, patch) {
     const saves = getAllSaves();
     const save = saves[slotIndex];
+
     if (!save) {
       return null;
     }
 
-    save.lastPlayedAt = new Date().toISOString();
-    saves[slotIndex] = save;
+    const updated = Object.assign({}, save, patch || {}, {
+      slot: slotIndex,
+      lastPlayedAt: new Date().toISOString()
+    });
+
+    saves[slotIndex] = updated;
     saveAll(saves);
     setLastPlayedSlot(slotIndex);
-    return save;
+    return updated;
+  }
+
+  function touchSave(slotIndex) {
+    return updateSave(slotIndex, {});
   }
 
   function hasAnySave() {
@@ -132,6 +148,7 @@
     getSave: getSave,
     createSave: createSave,
     overwriteSave: overwriteSave,
+    updateSave: updateSave,
     touchSave: touchSave,
     hasAnySave: hasAnySave,
     getLastPlayedSlot: getLastPlayedSlot,
