@@ -4,7 +4,7 @@
 
 ### Prólogo / Tutorial — Inicio en casa de Nicolás
 
-- El próólogo comienza el día del cumpleaños número 16 de Nicolás.
+- El prólogo comienza el día del cumpleaños número 16 de Nicolás.
 - La primera escena será una animación gráfica separada del gameplay normal: Nicolás duerme y piensa brevemente sobre su cumpleaños.
 - Después habrá una segunda animación en la que despierta con ánimos.
 - El control del jugador comienza cuando Nicolás sale de la cama.
@@ -218,6 +218,11 @@
 - No todas las misiones serán de animales. Podrán incluir observación, investigación, encargos de NPC, descubrir lugares, actividades urbanas, gastronomía, fotografía, pequeños retos de movimiento o interacción y situaciones propias de cada región.
 - Las instrucciones pueden ser explícitas cuando el jugador necesite aprender una mecánica concreta; no se obligará al jugador a adivinar reglas importantes.
 - Algunas actividades serán globales/reutilizables y podrán aparecer en cualquier país donde tengan sentido; otras serán exclusivas de un lugar o región.
+- Molly funcionará como recordatorio natural de objetivos: podrá mencionar pendientes contextualmente o revisar su libreta si el jugador le pregunta qué tienen pendiente.
+- Los NPC pueden pedir favores por necesidades propias, no solamente para beneficiar al jugador. Ejemplo: alguien que no puede abandonar su puesto puede pedir comida y recompensar con Armónicos, información u otros objetos.
+- Habrá encargos de largo plazo y backtracking: un NPC puede pedir algo procedente de otra zona, departamento o región que todavía no puede visitarse; el jugador podrá completar el favor mucho después al regresar.
+- Los encargos de viaje largos no deberían tener límite de tiempo salvo que una situación concreta lo justifique.
+- Las recompensas pueden ser Armónicos, información, descuentos, comida, ropa, herramientas, contactos, objetos especiales o progreso de completado; no toda ayuda debe pagarse con dinero.
 
 ### Fotografía de animales comunes
 
@@ -229,5 +234,26 @@
 - Cuando la distancia sea adecuada, el juego podrá indicar claramente la acción requerida para evitar que el jugador tenga que adivinar la mecánica.
 - Esta misión/actividad de paloma no aparecerá en el prólogo; se reservará para más adelante porque sería demasiado exigente para la primera sesión.
 - Otros animales comunes podrán requerir comportamientos diferentes para conseguir su registro, de forma que incluso las especies cotidianas tengan cierto reto.
+
+### Misión principal del prólogo
+
+- El prólogo tendrá una única misión principal clara: llegar con Molly al Palacio Nacional y tomarle una fotografía.
+- Comprar el mapa, entrar a tiendas, probar comida, fotografiar gastronomía, hablar con NPC o aceptar favores serán actividades opcionales y no requisitos para terminar la misión principal.
+- Al llegar al Palacio Nacional se activa una oportunidad fotográfica importante; al tomar la foto se considera cumplido el objetivo principal del día.
+- Completar la fotografía no fuerza el regreso inmediato. Después se habilita un período de exploración libre para visitar La Sexta, Mercado Central y alrededores mientras todavía sea de día.
+- Durante esta exploración podrán verse cosas pendientes intencionalmente: ropa demasiado cara, encargos aún imposibles, calles no visitadas, sectores grises del mapa, alimentos no probados y lugares que Nicolás y Molly deciden dejar para otro día.
+- La intención es que el prólogo cierre su misión principal pero deje suficientes razones para querer regresar a esas zonas más adelante.
+
+### Regreso del prólogo y transición a la noche
+
+- Mientras Nicolás y Molly buscan transporte para volver, la iluminación sigue siendo clara.
+- Una vez dentro del transporte de regreso, la iluminación exterior cambia progresivamente a tonos naranjas de atardecer.
+- El viaje de regreso puede incluir una conversación tranquila, observar por la ventana, revisar el Diario o simplemente dejar que transcurra el trayecto.
+- Al llegar nuevamente a la colonia, el exterior ya se verá considerablemente más oscuro.
+- La transición temporal es narrativa y exclusiva del prólogo; no depende todavía del sistema normal de día/noche.
+- Al acercarse a las casas, Nicolás puede proponer acompañar primero a Molly hasta su casa.
+- Molly se niega de manera natural y le insiste en que vayan primero a la casa de Nicolás, porque ella conoce la fiesta sorpresa y necesita llevarlo allí sin revelarla.
+- El diálogo debe sonar razonable para Nicolás y el jugador, aunque retrospectivamente quede claro que Molly estaba evitando que él descubriera o retrasara la sorpresa.
+- Esta escena puede incluir otra indirecta leve de Molly sobre la importancia de llegar temprano, sin mencionar la fiesta.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
