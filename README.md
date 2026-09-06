@@ -324,7 +324,7 @@
 
 - Al salir temprano de la casa de Molly, la colonia se verá mucho más vacía que durante el día: pocos peatones, poco tránsito y varios comercios todavía cerrados.
 - La hora del día afectará visualmente la actividad del vecindario y la disponibilidad de algunos negocios.
-- La colonia se llamará `Colonia Fuente de Cristal` y estará ubicada de forma ficticia dentro de la Zona 4 de Ciudad de Guatemala, cerca de los bordes que permiten conectar con Zona 1 y Zona 5.
+- La colonia se llamará `Colonia Fuente de Cristal` y estará ubicada de forma ficticia dentro de la Zona 4 de Ciudad de Guatemala, cerca del borde que permite conectar con Zona 5.
 - La fuente central será el principal punto de referencia interno y la razón del nombre de la colonia. Puede formar parte de una pequeña plazoleta conectada con el parque y las calles residenciales.
 - La colonia tendrá más extensión de la mostrada en el prólogo. Hasta ahora se conoce principalmente el recorrido desde la casa de Nicolás hacia la casa de Molly y, desde allí, hacia la salida/calle principal.
 - El Día 2 puede abrir por primera vez la zona situada detrás o al otro lado de la casa de Nicolás, dejando claro que el jugador todavía no conocía toda su propia colonia.
@@ -332,21 +332,18 @@
 - El parque puede funcionar como espacio de descanso, encuentro con vecinos, animales comunes, plantas, pequeños objetos y futuras actividades opcionales.
 - La colonia incluirá más residencias alrededor de las casas de Nicolás y Molly para que el lugar se sienta como un vecindario real y no como un corredor de gameplay.
 - La colonia tendrá al menos dos salidas diferentes.
-- La `Salida 1` será la conocida durante el prólogo: una salida más transitada/comercial que conduce hacia la ruta de transporte utilizada para llegar al Centro Histórico y Zona 1.
-- La `Salida 2` estará en otro extremo de Fuente de Cristal y conectará a pie con Zona 5. El jugador no necesitará tomar bus ni taxi: tras abandonar la colonia y caminar un tramo urbano, cruzará naturalmente a la nueva zona.
+- La `Salida 1` será la entrada/salida principal de Fuente de Cristal hacia el resto de Zona 4. Desde allí se podrá avanzar hacia otros sectores residenciales y hacia el núcleo urbano/cultural de la zona.
+- La `Salida 2` estará en otro extremo de Fuente de Cristal y conectará a pie con Zona 5. El jugador no necesitará tomar bus ni taxi: tras abandonar la colonia y caminar un tramo urbano, cruzará naturalmente a una colonia o sector ficticio de Zona 5 cuando esa zona esté disponible.
 - La transición caminando entre Fuente de Cristal y Zona 5 servirá para enseñar que algunas zonas de una misma ciudad pueden recorrerse directamente sin transporte.
 - Caminar será gratuito y permitirá descubrir NPC, comercios, fauna, flora, calles y actividades, pero consumirá más tiempo, agua y energía. El transporte podrá ahorrar tiempo y esfuerzo a cambio de Armónicos.
-- La primera sección de Zona 5 deberá sentirse más activa que Fuente de Cristal: edificios, comercios y centros comerciales, parques pequeños, escuelas/colegios, tráfico y mayor densidad de peatones.
-- No será necesario representar toda Zona 5 de una sola vez. Al principio se abrirá únicamente un sector cercano a la Salida 2 y el resto podrá descubrirse progresivamente.
 - No todo debe estar activo a las 7:00: algunos NPC aún no habrán salido, ciertos comercios permanecerán cerrados y algunas actividades aparecerán únicamente más tarde.
-- Esta expansión permite que volver a Fuente de Cristal y Zona 5 en diferentes horarios produzca experiencias distintas y evita que el vecindario se convierta solamente en un corredor entre las dos casas y la salida principal.
+- Esta expansión permite que volver a Fuente de Cristal en diferentes horarios produzca experiencias distintas y evita que el vecindario se convierta solamente en un corredor entre las dos casas y la salida principal.
 
 ### Orden de expansión y cierre por zonas
 
 - El desarrollo del mundo se organizará por zonas completas para evitar avanzar demasiado rápido y dejar sectores vacíos o repetitivos.
 - Antes de diseñar o implementar en profundidad Zona 5, se terminará primero Zona 4.
-- Zona 4 tendrá a Fuente de Cristal como colonia principal y se añadirán al menos dos áreas adicionales —por ejemplo otra colonia residencial y un sector con función distinta— para que la zona tenga variedad real y pueda considerarse cerrada.
-- Las áreas adicionales de Zona 4 no deben repetir exactamente el concepto de Fuente de Cristal. Se priorizarán identidades diferentes, como mayor densidad residencial, servicios cotidianos, actividad comercial, educación, talleres, oficinas, hospedaje u otros usos urbanos que se definan después de investigar la zona.
+- Zona 4 tendrá a Fuente de Cristal como colonia principal y se añadirán otras áreas residenciales y urbanas para que la zona tenga variedad real y pueda considerarse cerrada.
 - La primera noche en hotel puede aprovechar uno de estos sectores de Zona 4, lo que permite introducir hospedaje sin abandonar todavía la zona inicial.
 - Una vez terminada Zona 4, el siguiente gran objetivo de diseño será completar Zona 1, ampliando y cerrando el contenido iniciado en el prólogo antes de continuar a Zona 5.
 - La Salida 2 de Fuente de Cristal seguirá existiendo geográficamente y conectará con Zona 5, pero el orden de desarrollo no obliga a cruzarla inmediatamente. En la versión final podrá abrirse cuando el contenido de Zona 5 esté listo, sin necesidad de convertir esta decisión de producción en una barrera artificial permanente para el jugador.
@@ -359,12 +356,22 @@
 - Un ejemplo directo será: `Guatemala → Departamento de Guatemala → Ciudad de Guatemala → Zona 4 → Colonia Fuente de Cristal`.
 - Los niveles grandes del mundo —países, departamentos, ciudades y zonas reales— conservarán su identidad y relaciones geográficas generales basadas en el mundo real.
 - Dentro de esos espacios podrán existir colonias, sectores, calles, negocios, hoteles, casas, parques y otros lugares inventados específicamente para RUMBO, siempre procurando que encajen con la identidad investigada del lugar real en el que se ubican.
-- Fuente de Cristal será una pequeña zona residencial ficticia dentro de Zona 4 y no representará toda la zona. Zona 4 tendrá otras áreas residenciales ficticias, posiblemente una o dos colonias adicionales, repartidas entre sectores urbanos con funciones distintas.
-- La Salida 1 de Fuente de Cristal será su conector principal hacia otras áreas de Zona 4. A partir de allí el jugador podrá descubrir sectores inventados que traduzcan a gameplay los rasgos reales investigados de Zona 4, como espacios culturales, murales, cafés, comercios especializados, edificios reutilizados, áreas de servicios y otros elementos adecuados.
-- La Salida 2 mantendrá la conexión futura con Zona 5 y podrá desembocar en otra colonia o sector ficticio de esa zona, respetando la continuidad general entre ambas zonas.
+- Fuente de Cristal será una pequeña zona residencial ficticia dentro de Zona 4 y no representará toda la zona.
 - La filosofía será usar información real para dar autenticidad al mundo, pero no reconstruir cada calle y negocio de forma literal. El objetivo es crear una versión jugable y reconocible del mundo real con identidad propia.
 - Algunos lugares reales importantes podrán aparecer directamente cuando sean relevantes para historia, cultura, exploración o fotografía; otros espacios serán ficticios y cumplirán funciones narrativas o jugables.
 - Las invenciones no deberán contradecir de forma innecesaria la geografía real: los conectores entre zonas, la ubicación general y la identidad de cada área se investigarán antes de fijarse.
 - Esta mezcla permitirá evitar mapas repetitivos, reducir la necesidad de copiar ciudades completas y dar libertad para crear NPC, misiones, hoteles, tiendas y pequeñas historias originales sin perder la sensación de estar explorando Guatemala y, más adelante, el mundo real.
+
+### Estructura interna propuesta para Zona 4
+
+- Zona 4 se organizará con varias áreas residenciales ficticias cerca de sus bordes y un núcleo urbano/cultural en la parte intermedia.
+- `Colonia Fuente de Cristal` será la colonia principal y estará situada cerca del borde con Zona 5. Además de ser el hogar de Nicolás y Molly, funcionará como una de las puertas geográficas hacia una futura colonia o sector de Zona 5.
+- Se creará una segunda colonia residencial ficticia cerca del lado de Zona 4 que conecta con Zona 1. Esta colonia servirá como transición residencial hacia la dirección del Centro Histórico y podrá tener su propio nombre, parque, residencias y pequeños servicios cotidianos.
+- Se creará una tercera colonia residencial ficticia cerca del sector de Zona 4 próximo a Zona 8. También tendrá identidad propia y funcionará como otra frontera jugable hacia una zona vecina.
+- Los nombres de estas dos colonias adicionales quedan pendientes y se elegirán cuando se defina mejor su personalidad visual y función dentro de la zona.
+- Las colonias no ocuparán toda Zona 4. Entre ellas habrá uno o varios sectores urbanos ficticios inspirados en la identidad real investigada de Zona 4.
+- El área central será donde se concentren principalmente los rasgos investigados: edificios reutilizados, murales, cafés, espacios culturales, comercios especializados, tiendas de ropa/vintage, música, servicios, oficinas, restaurantes y hospedaje, adaptados al tono y necesidades de RUMBO.
+- La intención es que cada colonia funcione como una frontera natural hacia otra zona de Ciudad de Guatemala, mientras que el centro de Zona 4 funcione como el principal espacio de exploración propia de la zona.
+- La Salida 1 de Fuente de Cristal conducirá primero hacia este núcleo y hacia las otras áreas de Zona 4, no directamente a otra zona. Esto permitirá que el jugador termine de conocer Zona 4 antes de usar sus conexiones con el resto de la ciudad.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
