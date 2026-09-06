@@ -341,4 +341,16 @@
 - No todo debe estar activo a las 7:00: algunos NPC aún no habrán salido, ciertos comercios permanecerán cerrados y algunas actividades aparecerán únicamente más tarde.
 - Esta expansión permite que volver a Fuente de Cristal y Zona 5 en diferentes horarios produzca experiencias distintas y evita que el vecindario se convierta solamente en un corredor entre las dos casas y la salida principal.
 
+### Orden de expansión y cierre por zonas
+
+- El desarrollo del mundo se organizará por zonas completas para evitar avanzar demasiado rápido y dejar sectores vacíos o repetitivos.
+- Antes de diseñar o implementar en profundidad Zona 5, se terminará primero Zona 4.
+- Zona 4 tendrá a Fuente de Cristal como colonia principal y se añadirán al menos dos áreas adicionales —por ejemplo otra colonia residencial y un sector con función distinta— para que la zona tenga variedad real y pueda considerarse cerrada.
+- Las áreas adicionales de Zona 4 no deben repetir exactamente el concepto de Fuente de Cristal. Se priorizarán identidades diferentes, como mayor densidad residencial, servicios cotidianos, actividad comercial, educación, talleres, oficinas, hospedaje u otros usos urbanos que se definan después de investigar la zona.
+- La primera noche en hotel puede aprovechar uno de estos sectores de Zona 4, lo que permite introducir hospedaje sin abandonar todavía la zona inicial.
+- Una vez terminada Zona 4, el siguiente gran objetivo de diseño será completar Zona 1, ampliando y cerrando el contenido iniciado en el prólogo antes de continuar a Zona 5.
+- La Salida 2 de Fuente de Cristal seguirá existiendo geográficamente y conectará con Zona 5, pero el orden de desarrollo no obliga a cruzarla inmediatamente. En la versión final podrá abrirse cuando el contenido de Zona 5 esté listo, sin necesidad de convertir esta decisión de producción en una barrera artificial permanente para el jugador.
+- Antes de diseñar cada zona nueva se investigarán sus rasgos, lugares, ambiente, usos urbanos, gastronomía, historia y tipos de actividad para evitar repetir los mismos conceptos con nombres diferentes.
+- El principio general será: terminar un bloque jugable con identidad propia, después expandir el mapa.
+
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
