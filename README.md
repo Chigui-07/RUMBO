@@ -152,7 +152,7 @@
 - La habitación de Molly tendrá más objetos personales que el resto de la casa; al entrar por primera vez ella se pondrá algo nerviosa porque Nicolás puede ver recuerdos y objetos privados relacionados con su amistad.
 - Puede haber fotografías, recuerdos, notas, dibujos u objetos que Nicolás le haya dado años atrás.
 - En la habitación estará visible, sin explicación, el regalo que Molly planea darle a Nicolás durante la fiesta nocturna. El jugador podrá verlo sin comprender aún su importancia.
-- Como posible regalo se considera un pequeño llavero de brújula personalizado por Molly, que después pueda conservarse como recuerdo/objeto principal. La elección definitiva del regalo queda pendiente.
+- Se propone que el regalo sea un collar compartido de dos piezas: Molly conserva una mitad y Nicolás recibe la otra. Al juntarlas forman un símbolo completo relacionado con su amistad y con el viaje; una rosa de los vientos o brújula dividida es una opción preferida, aunque el diseño final queda pendiente.
 - Si Nicolás intenta revisar el regalo antes de tiempo, Molly puede detenerlo de forma nerviosa sin revelar qué es.
 - La habitación de Emily tendrá una atmósfera más relajada: libros, objetos escolares, colecciones, dibujos y recuerdos familiares, sin la misma vergüenza de Molly.
 - La habitación de los padres de Molly existirá para mantener lógica espacial, pero será secundaria y sencilla: cama grande, armario, cómoda, espejo, fotos familiares y pocos objetos interactivos.
@@ -172,8 +172,8 @@
 - Al salir de la colonia se llega a una calle principal y luego a una zona más social con más caminos, tránsito, peatones, NPC reales, animales y comercios variados.
 - Pueden aparecer negocios como panaderías, supermercados, ferreterías/herrerías, restaurantes, tiendas de ropa y otros comercios cotidianos.
 - Habrá zona de buses/Transmetro y zona de taxis. El jugador podrá elegir el transporte que prefiera.
-- Dentro del transporte habrá oportunidades de conversación, revisar el Diario, consultar mochilas, beber agua, usar los teléfonos y observar el trayecto. Los viajes posteriores podrán tener opción de saltarse.
-- Nicolás y Molly tendrán un teléfono propio cada uno; el sistema de teléfono se detallará más adelante.
+- Dentro del transporte habrá oportunidades de conversación, revisar el Diario, consultar mochilas, beber agua, usar los teléfonos cuando ya estén disponibles y observar el trayecto. Los viajes posteriores podrán tener opción de saltarse.
+- Nicolás y Molly tendrán un teléfono propio cada uno; los recibirán como sorpresa durante la fiesta final del prólogo.
 - Puede ocurrir una escena casual en el camino donde un perro ladra y Molly se sobresalta, acercándose por reflejo a Nicolás; la escena se mantiene amistosa, breve y humorística.
 
 ### Tarjetas de ubicación
@@ -264,15 +264,36 @@
 - Nicolás entra primero y la familia activa la sorpresa: sus padres, Molly, Emily y los padres de Molly ya estaban coordinados para celebrar su cumpleaños.
 - La revelación debe hacer que las indirectas anteriores de Molly y Emily cobren sentido de forma retrospectiva.
 - Emily puede bromear con que casi arruina la sorpresa y Molly reaccionar porque tuvo que evitar que Nicolás descubriera todo durante el día.
-- La fiesta será pequeña y familiar, no un evento multitudinario, para mantener el tono íntimo del prólogo.
-- Habrá comida, pastel, música/ambiente y conversaciones opcionales con cada miembro de ambas familias.
-- El jugador recuperará el control durante parte de la fiesta para hablar con los presentes, comer, revisar objetos y participar en pequeñas interacciones en vez de ver únicamente una cinemática larga.
-- Molly entregará durante la fiesta su regalo personal para Nicolás; el objeto definitivo sigue pendiente. Si el jugador vio antes el paquete en su habitación, ahora entenderá qué era.
-- La fiesta tendrá dos fotografías personales principales: una fotografía con ambas familias juntas y otra de Nicolás y Molly juntos.
-- Estas dos fotografías se guardarán en la sección de recuerdos personales y no se mezclarán con las fotografías de lugares, gastronomía, fauna o flora.
-- La foto de Nicolás y Molly debe sentirse como un recuerdo de amistad importante del primer día, no como una mecánica romántica obligatoria.
-- Tras la celebración, la noche puede cerrarse con un momento tranquilo en casa: Nicolás revisa brevemente el Diario, las fotos obtenidas o los recuerdos del día antes de descansar.
-- El prólogo no debe resolver todas las posibilidades de Ciudad de Guatemala; quedan tiendas, encargos, sectores del mapa, lugares y actividades pendientes para regresar después.
-- El cierre debe transmitir que la primera misión terminó, pero que el viaje de RUMBO apenas comenzó.
+- La fiesta será pequeña y familiar, no un evento multitudinario.
+- La celebración tendrá gameplay libre entre momentos narrativos: hablar con cada familiar, revisar la decoración, comer, tomar fotografías de recuerdo y participar en una actividad familiar.
+- Se considera incluir un minijuego familiar sencillo durante la fiesta. Debe permitir que el jugador participe como Nicolás y, al mismo tiempo, mostrar recuerdos, bromas o personalidad de ambas familias. El diseño concreto del minijuego queda pendiente.
+- La cena podrá fotografiarse, pero la fotografía se guardará en `Recuerdos` por representar la celebración del cumpleaños, no en `Gastronomía`.
+- El pastel también podrá fotografiarse y se archivará como recuerdo del cumpleaños; una comida similar fotografiada en otro contexto sí podría pertenecer a Gastronomía.
+- Durante la fiesta se propone que Molly entregue a Nicolás un collar compartido de dos piezas, quedándose ella con la otra mitad. Las dos piezas forman un símbolo completo al juntarse; la idea preferida es una brújula o rosa de los vientos dividida, aunque el diseño definitivo queda pendiente.
+- Si el jugador vio antes el paquete en la habitación de Molly, Nicolás podrá reconocer que se trataba del regalo que ella no quería que revisara.
+- Los padres de Molly sorprenderán a Nicolás y Molly regalándoles un teléfono propio a cada uno para sus viajes. El regalo estará acompañado por la petición familiar de mantenerse comunicados, llamar con frecuencia y avisar cuando se desplacen o tengan algún problema.
+- Los celulares servirán principalmente para llamadas, mensajes, contactos y futuros servicios de viaje. No reemplazarán la cámara de Nicolás como herramienta principal para las fotografías que registran el Diario.
+- La fiesta tendrá dos fotografías personales principales adicionales: una fotografía con ambas familias juntas y otra de Nicolás y Molly juntos. Ambas se guardan en `Recuerdos`.
+
+### Momento tranquilo de Nicolás y Molly durante la fiesta
+
+- Mientras el resto de la familia conversa abajo, el jugador podrá recuperar el control y, mediante una interacción opcional, invitar a Molly a subir a la habitación de Nicolás para hablar con más tranquilidad.
+- Esta escena será cercana y personal, pero mantendrá el tono de amistad inocente de ambos personajes.
+- Podrán hablar del regalo compartido, de cómo salió el día, de la sorpresa, de lo que quieren hacer al día siguiente y de las cosas que todavía no alcanzaron a explorar.
+- Antes de volver con las familias puede existir un intercambio sencillo de `te quiero` entendido como una expresión de cariño entre mejores amigos, sin convertir todavía la relación en una declaración romántica.
+- Emily podrá escuchar accidentalmente una pequeña parte de esta conversación sin interrumpir ni burlarse en ese momento. La información puede utilizarse al día siguiente para una indirecta que solamente Molly entienda claramente.
+- Este tipo de conversaciones privadas podrán aparecer de manera natural más adelante durante viajes, descansos y otros tiempos muertos, sin convertirse en una mecánica de citas separada.
+
+### Cierre nocturno y descanso
+
+- Después de la fiesta, Molly, Emily y sus padres regresarán a su casa y Nicolás quedará con sus padres.
+- Antes de dormir habrá un pequeño tramo de gameplay doméstico para cerrar el día: recoger platos u objetos, ayudar a ordenar una parte de la casa y dejar la celebración atrás de forma natural.
+- Nicolás deberá realizar su rutina nocturna básica, incluyendo cepillarse los dientes y prepararse para dormir.
+- Podrá despedirse de sus padres y decirles buenas noches antes de subir a su habitación.
+- Ya en su habitación el jugador tendrá varias actividades opcionales antes de dormir: revisar el Diario y las fotografías, jugar el minijuego de la consola, probar el nuevo teléfono o llamar a Molly.
+- La llamada nocturna a Molly será opcional y permitirá una conversación más personal y tranquila sobre el día, siempre dentro de su amistad y sin contenido físico o sexual. También funcionará como una introducción natural al sistema de llamadas.
+- El jugador podrá omitir todas estas actividades y acostarse directamente si quiere terminar el prólogo.
+- Dormir será la acción que cierre definitivamente el primer día y el prólogo.
+- El cierre debe transmitir que la primera misión terminó, pero que quedan zonas, encargos, lugares, relaciones y sistemas por descubrir en los días siguientes.
 
 > Por ahora el repositorio no tendrá estructura de código ni archivos de juego nuevos; el README se usa como bitácora de diseño.
