@@ -54,7 +54,11 @@
         x: 480,
         y: 285,
         introComplete: false,
-        changedClothes: false
+        changedClothes: false,
+        breakfastDone: false,
+        giftsReceived: false,
+        inventory: [],
+        harmonics: null
       }
     };
 
