@@ -135,7 +135,7 @@
           x: 185, y: 58, w: 160, h: 54,
           solid: true,
           kind: "door",
-          text: "La habitación de mis padres. Su interior será uno de los siguientes espacios del prólogo."
+          action: "enter-parents-room"
         },
         {
           id: "bathroom-door",
@@ -143,7 +143,7 @@
           x: 455, y: 58, w: 105, h: 54,
           solid: true,
           kind: "door",
-          text: "El baño del segundo piso. Aquí estarán el espejo, lavabo, cepillo, ducha y demás interacciones."
+          action: "enter-bathroom"
         },
         {
           id: "family-photos",
@@ -151,7 +151,7 @@
           x: 290, y: 415, w: 175, h: 48,
           solid: true,
           kind: "interactive",
-          text: "Fotos familiares. Más adelante cada una podrá tener su propia vista cercana."
+          text: "Fotos familiares de distintos años. Algunas terminarán siendo recuerdos que Nicolás podrá volver a mirar."
         },
         {
           id: "clock",
@@ -159,7 +159,7 @@
           x: 600, y: 402, w: 58, h: 58,
           solid: true,
           kind: "interactive",
-          text: "Un reloj de pared. Cuando funcione el sistema de tiempo, sus agujas cambiarán con la hora del juego."
+          text: "Todavía es temprano. Más adelante este reloj seguirá la hora real del juego."
         },
         {
           id: "stairs",
@@ -167,7 +167,220 @@
           x: 760, y: 290, w: 150, h: 150,
           solid: true,
           kind: "door",
-          text: "Las escaleras bajan al recibidor. Ese será el siguiente bloque que construiremos en esta misma rama."
+          action: "go-downstairs"
+        }
+      ]
+    },
+
+    bathroom: {
+      title: "Baño · Segundo piso",
+      spawn: { x: 120, y: 275 },
+      objects: [
+        {
+          id: "bathroom-exit",
+          label: "Volver al corredor",
+          x: 18, y: 205, w: 52, h: 125,
+          solid: true,
+          kind: "door",
+          action: "bathroom-exit"
+        },
+        {
+          id: "sink",
+          label: "Lavabo",
+          x: 170, y: 64, w: 150, h: 74,
+          solid: true,
+          kind: "interactive",
+          text: "El lavabo. Aquí podremos añadir después acciones de rutina sin convertirlas en obligaciones constantes."
+        },
+        {
+          id: "mirror",
+          label: "Espejo",
+          x: 355, y: 55, w: 130, h: 82,
+          solid: true,
+          kind: "interactive",
+          text: "Nicolás se mira un momento. Definitivamente ya no tiene cara de seguir durmiendo."
+        },
+        {
+          id: "cabinet",
+          label: "Gabinete",
+          x: 525, y: 62, w: 130, h: 80,
+          solid: true,
+          kind: "interactive",
+          text: "Aquí se guardan artículos de higiene y cosas de uso diario."
+        },
+        {
+          id: "shower",
+          label: "Ducha",
+          x: 700, y: 55, w: 190, h: 180,
+          solid: true,
+          kind: "interactive",
+          text: "La ducha. Por ahora es decorativa; luego decidiremos qué rutinas tendrán interacción real."
+        },
+        {
+          id: "toilet",
+          label: "Sanitario",
+          x: 720, y: 345, w: 105, h: 90,
+          solid: true,
+          kind: "furniture",
+          text: "Parte normal del baño. No necesita convertirse en una mecánica del juego."
+        },
+        {
+          id: "laundry-basket",
+          label: "Cesto de ropa",
+          x: 500, y: 370, w: 110, h: 85,
+          solid: true,
+          kind: "interactive",
+          text: "Un cesto para la ropa. Más adelante puede servir como detalle ambiental cuando exista el sistema de ropa limpia."
+        },
+        {
+          id: "towel-rack",
+          label: "Toallas",
+          x: 245, y: 395, w: 135, h: 48,
+          solid: true,
+          kind: "interactive",
+          text: "Toallas limpias. Estos objetos pequeños ayudarán a que la casa se sienta habitada cuando llegue el arte final."
+        }
+      ]
+    },
+
+    "parents-room": {
+      title: "Habitación de los padres",
+      spawn: { x: 120, y: 275 },
+      objects: [
+        {
+          id: "parents-room-exit",
+          label: "Volver al corredor",
+          x: 18, y: 205, w: 52, h: 125,
+          solid: true,
+          kind: "door",
+          action: "parents-room-exit"
+        },
+        {
+          id: "parents-bed",
+          label: "Cama",
+          x: 330, y: 72, w: 290, h: 165,
+          solid: true,
+          kind: "furniture",
+          text: "La cama de mis padres. Mejor no ponerme a revisar demasiado por aquí."
+        },
+        {
+          id: "left-nightstand",
+          label: "Mesa de noche",
+          x: 245, y: 110, w: 70, h: 75,
+          solid: true,
+          kind: "interactive",
+          text: "Una mesa de noche con objetos cotidianos."
+        },
+        {
+          id: "right-nightstand",
+          label: "Mesa de noche",
+          x: 635, y: 110, w: 70, h: 75,
+          solid: true,
+          kind: "interactive",
+          text: "Otra mesa de noche. No hay nada que Nicolás necesite tomar."
+        },
+        {
+          id: "parents-wardrobe",
+          label: "Armario",
+          x: 730, y: 62, w: 165, h: 128,
+          solid: true,
+          kind: "furniture",
+          text: "El armario de mis padres. Sus cosas son suyas; no tengo motivo para abrirlo."
+        },
+        {
+          id: "parents-photo",
+          label: "Foto familiar",
+          x: 110, y: 70, w: 95, h: 70,
+          solid: true,
+          kind: "interactive",
+          text: "Una fotografía familiar. Cuando tengamos las imágenes definitivas, este tipo de fotos podrá verse de cerca."
+        },
+        {
+          id: "parents-window",
+          label: "Ventana",
+          x: 105, y: 350, w: 210, h: 65,
+          solid: true,
+          kind: "interactive",
+          text: "Desde aquí también se alcanza a ver la colonia despertando."
+        },
+        {
+          id: "parents-chair",
+          label: "Sillón",
+          x: 675, y: 345, w: 145, h: 105,
+          solid: true,
+          kind: "furniture",
+          text: "Un sillón sencillo junto a la pared."
+        }
+      ]
+    },
+
+    "downstairs-foyer": {
+      title: "Recibidor · Planta baja",
+      spawn: { x: 790, y: 330 },
+      objects: [
+        {
+          id: "stairs-up",
+          label: "Escaleras al segundo piso",
+          x: 760, y: 290, w: 150, h: 150,
+          solid: true,
+          kind: "door",
+          action: "go-upstairs"
+        },
+        {
+          id: "front-door",
+          label: "Puerta principal",
+          x: 18, y: 200, w: 62, h: 140,
+          solid: true,
+          kind: "door",
+          text: "Todavía no voy a salir. Primero debo bajar con mis padres y desayunar."
+        },
+        {
+          id: "shoe-rack",
+          label: "Mueble de entrada",
+          x: 105, y: 62, w: 180, h: 82,
+          solid: true,
+          kind: "interactive",
+          text: "Un mueble de entrada para llaves, zapatos y algunas cosas que usamos al salir."
+        },
+        {
+          id: "foyer-mirror",
+          label: "Espejo de entrada",
+          x: 325, y: 60, w: 115, h: 90,
+          solid: true,
+          kind: "interactive",
+          text: "Otro vistazo rápido antes de empezar el día."
+        },
+        {
+          id: "living-room-way",
+          label: "Sala",
+          x: 500, y: 60, w: 160, h: 70,
+          solid: true,
+          kind: "door",
+          text: "La sala estará conectada aquí. Será parte del siguiente bloque de la planta baja."
+        },
+        {
+          id: "kitchen-way",
+          label: "Cocina / comedor",
+          x: 650, y: 58, w: 190, h: 74,
+          solid: true,
+          kind: "door",
+          text: "Por aquí está la cocina y el comedor. Ahí continuará la historia con el desayuno y los regalos."
+        },
+        {
+          id: "plant",
+          label: "Planta",
+          x: 170, y: 390, w: 95, h: 95,
+          solid: true,
+          kind: "furniture",
+          text: "Una planta de interior. Más adelante tendrá su sprite y detalles propios."
+        },
+        {
+          id: "family-frame",
+          label: "Cuadro familiar",
+          x: 405, y: 395, w: 150, h: 55,
+          solid: true,
+          kind: "interactive",
+          text: "Un cuadro familiar cerca de la entrada."
         }
       ]
     }
@@ -389,6 +602,36 @@
       return;
     }
 
+    if (object.action === "enter-bathroom") {
+      changeScene("bathroom", 120, 275);
+      return;
+    }
+
+    if (object.action === "bathroom-exit") {
+      changeScene("upstairs-hall", 505, 175);
+      return;
+    }
+
+    if (object.action === "enter-parents-room") {
+      changeScene("parents-room", 120, 275);
+      return;
+    }
+
+    if (object.action === "parents-room-exit") {
+      changeScene("upstairs-hall", 265, 175);
+      return;
+    }
+
+    if (object.action === "go-downstairs") {
+      changeScene("downstairs-foyer", 790, 330);
+      return;
+    }
+
+    if (object.action === "go-upstairs") {
+      changeScene("upstairs-hall", 705, 345);
+      return;
+    }
+
     if (object.text) {
       showDialogue("Nicolás", object.text);
     }
@@ -417,6 +660,7 @@
 
     currentNearbyObject = null;
     interactionPrompt.classList.remove("is-visible");
+    updateHud();
   }
 
   function changeScene(sceneId, x, y) {
@@ -441,9 +685,28 @@
 
   function updateHud() {
     hudSlot.textContent = activeSlot === null ? "" : "Partida " + (activeSlot + 1);
-    hudObjective.textContent = player.changedClothes
-      ? "Objetivo: salir de la habitación"
-      : "Objetivo: cambiarse de ropa";
+
+    if (!player.changedClothes) {
+      hudObjective.textContent = "Objetivo: cambiarse de ropa";
+      return;
+    }
+
+    if (activeSceneId === "bedroom") {
+      hudObjective.textContent = "Objetivo: salir de la habitación";
+      return;
+    }
+
+    if (activeSceneId === "upstairs-hall" || activeSceneId === "bathroom" || activeSceneId === "parents-room") {
+      hudObjective.textContent = "Objetivo: bajar con mis padres";
+      return;
+    }
+
+    if (activeSceneId === "downstairs-foyer") {
+      hudObjective.textContent = "Objetivo: ir a la cocina y desayunar";
+      return;
+    }
+
+    hudObjective.textContent = "Prólogo";
   }
 
   function openWardrobe() {
