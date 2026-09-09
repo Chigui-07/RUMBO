@@ -103,6 +103,18 @@
   background: var(--game-object-strong);
 }
 
+.scene-object[data-type="npc"] {
+  border-radius: 14px;
+  background: #7c6a85;
+  border-color: rgba(237, 218, 245, 0.62);
+}
+
+.scene-object[data-type="item"] {
+  background: #8a7447;
+  border-color: rgba(255, 232, 166, 0.78);
+  box-shadow: 0 0 20px rgba(255, 222, 135, 0.15);
+}
+
 .scene-object.is-near {
   border-color: var(--accent-strong);
   box-shadow: 0 0 0 3px rgba(241, 227, 178, 0.11), 0 0 20px rgba(241, 227, 178, 0.18);
@@ -168,7 +180,8 @@
 
 .prologue-dialogue,
 .prologue-panel,
-.prologue-intro {
+.prologue-intro,
+.prologue-system-panel {
   position: absolute;
   z-index: 100;
   border: 1px solid rgba(217, 232, 178, 0.52);
@@ -248,7 +261,8 @@
   background: #03131e;
 }
 
-.prologue-intro__label {
+.prologue-intro__label,
+.prologue-system-panel__label {
   margin-bottom: 18px;
   color: rgba(217, 232, 178, 0.64);
   font-size: 12px;
@@ -301,6 +315,41 @@
   font-size: 9px;
   line-height: 1.35;
   pointer-events: none;
+}
+
+.prologue-system-panel {
+  left: 50%;
+  top: 50%;
+  width: min(620px, 72%);
+  transform: translate(-50%, -50%);
+  padding: 28px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.prologue-system-panel h2 {
+  margin: 8px 0 18px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+.prologue-system-panel__content {
+  margin: 0 0 24px;
+  padding: 18px;
+  border: 1px solid rgba(217, 232, 178, 0.18);
+  border-radius: 9px;
+  background: rgba(18, 54, 63, 0.62);
+  color: rgba(243, 241, 232, 0.86);
+  white-space: pre-line;
+  line-height: 1.65;
+}
+
+.prologue-obtained-panel {
+  border-color: rgba(255, 232, 166, 0.72);
+}
+
+.prologue-obtained-panel h2 {
+  color: #f1e3b2;
 }
 
 [hidden] {
