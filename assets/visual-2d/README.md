@@ -1,14 +1,49 @@
-# Recursos visuales 2D de RUMBO
+# Recursos visuales de RUMBO
 
-Esta carpeta reemplaza la idea anterior de una carpeta exclusiva para pixel art.
+Esta carpeta se usará para los recursos visuales externos y propios del juego.
 
-Aquí se guardarán los recursos visuales del estilo 2D de RUMBO: imágenes, texturas, iconos, ilustraciones y cualquier archivo gráfico que más adelante necesitemos.
+La prioridad de RUMBO será el desarrollo jugable y narrativo. No será obligatorio dibujar manualmente todos los sprites, muebles, tiles u objetos. Siempre que sea posible se reutilizarán paquetes de recursos con licencia adecuada y un estilo visual coherente.
 
-Los estilos CSS se mantendrán en `styles/`, para que el proyecto siga ordenado.
+## Dirección visual actual
 
-## Estado actual
+RUMBO seguirá siendo un juego 2D visto desde arriba. El estilo definitivo podrá mezclar recursos preparados con elementos propios, pero se evitará combinar paquetes que choquen demasiado entre sí.
 
-La primera versión visual será principalmente CSS: formas limpias, colores, sombras y muebles reconocibles sin depender todavía de imágenes externas.
+Como base principal para las zonas urbanas se propone **Kenney - RPG Urban Pack**:
+
+- 2D.
+- Tiles de 16 x 16.
+- Aproximadamente 480 recursos.
+- Incluye recursos urbanos y personajes.
+- Licencia Creative Commons CC0.
+- Fuente oficial: https://kenney.nl/assets/rpg-urban-pack
+
+Para completar elementos que falten se podrán evaluar otros paquetes de Kenney, especialmente **RPG Base**, siempre comprobando que visualmente combinen con el paquete principal.
+
+Fuente oficial de RPG Base: https://kenney.nl/assets/rpg-base
+
+## Regla para recursos externos
+
+1. No usar imágenes encontradas al azar en Google o redes sociales.
+2. Comprobar la licencia antes de añadir cualquier recurso al repositorio.
+3. Priorizar CC0 o licencias claramente compatibles con el proyecto.
+4. Guardar una referencia a la fuente y licencia del paquete utilizado.
+5. Evitar depender de enlaces externos durante el juego: los archivos que finalmente utilice RUMBO deben guardarse dentro del proyecto.
+6. Reutilizar un mismo recurso cuando sirva para varios lugares en vez de duplicarlo innecesariamente.
+7. Los elementos especialmente importantes de RUMBO pueden recibir arte propio más adelante sin cambiar la lógica del juego.
+
+## Elementos propios prioritarios
+
+Aunque gran parte del escenario pueda usar recursos externos, estos elementos deberían conservar una identidad propia cuando llegue el momento:
+
+- Nicolás.
+- Molly.
+- Emily y personajes recurrentes importantes.
+- Diario de viajes.
+- Cámara de Nicolás.
+- Armónicos y su iconografía.
+- Interfaz principal de RUMBO.
+- Fotografías y recuerdos narrativos.
+- Lugares que necesiten representar de forma reconocible elementos reales de Guatemala y otros países.
 
 ## Recursos que ya existen en el graybox
 
@@ -78,6 +113,8 @@ La primera versión visual será principalmente CSS: formas limpias, colores, so
 - Cámara
 - Bolsa de Armónicos
 
-## Regla de reutilización
+## Flujo de trabajo
 
-Antes de crear un recurso nuevo, revisar esta lista para evitar repetir puertas, ventanas, marcos, espejos, mesas de noche, plantas y otros objetos que puedan usar la misma base visual.
+Primero se termina cada parte de forma jugable y narrativa. Después se sustituyen las representaciones graybox por recursos visuales seleccionados sin rehacer movimiento, colisiones, interacciones, diálogos ni guardado.
+
+La meta es que crear RUMBO se centre en diseñar el viaje, escribir su historia y jugarlo, en lugar de convertir la producción de arte en el principal obstáculo del proyecto.
