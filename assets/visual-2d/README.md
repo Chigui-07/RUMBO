@@ -8,16 +8,34 @@ La prioridad de RUMBO será el desarrollo jugable y narrativo. No será obligato
 
 RUMBO seguirá siendo un juego 2D visto desde arriba. El estilo definitivo podrá mezclar recursos preparados con elementos propios, pero se evitará combinar paquetes que choquen demasiado entre sí.
 
-Como base principal para las zonas urbanas se propone **Kenney - RPG Urban Pack**:
+## Recursos externos aprobados
 
+### Kenney - Roguelike Characters
+
+- Uso actual: personajes provisionales del prólogo.
+- Formato: spritesheet 2D.
+- Tile base: 16 x 16.
+- Licencia: Creative Commons CC0.
+- Fuente oficial: https://kenney.nl/assets/roguelike-characters
+- Integración actual: `styles/kenney.css`.
+- Durante el prototipo el spritesheet se carga desde un espejo público de GitHub. Antes de una versión de distribución se intentará guardar una copia local dentro del proyecto para no depender de un enlace externo.
+
+### Kenney - Roguelike Indoors
+
+- Uso previsto: muebles y objetos de interiores.
+- Licencia: Creative Commons CC0.
+- Fuente oficial: https://kenney.nl/assets/roguelike-indoors
+
+### Kenney - RPG Urban Pack
+
+- Uso previsto: calles, ciudad, vehículos, árboles, detalles urbanos y recursos para exteriores.
 - 2D.
 - Tiles de 16 x 16.
 - Aproximadamente 480 recursos.
-- Incluye recursos urbanos y personajes.
-- Licencia Creative Commons CC0.
+- Licencia: Creative Commons CC0.
 - Fuente oficial: https://kenney.nl/assets/rpg-urban-pack
 
-Para completar elementos que falten se podrán evaluar otros paquetes de Kenney, especialmente **RPG Base**, siempre comprobando que visualmente combinen con el paquete principal.
+Para completar elementos que falten se podrán evaluar otros paquetes de Kenney, especialmente RPG Base, siempre comprobando que visualmente combinen con el paquete principal.
 
 Fuente oficial de RPG Base: https://kenney.nl/assets/rpg-base
 
@@ -27,13 +45,13 @@ Fuente oficial de RPG Base: https://kenney.nl/assets/rpg-base
 2. Comprobar la licencia antes de añadir cualquier recurso al repositorio.
 3. Priorizar CC0 o licencias claramente compatibles con el proyecto.
 4. Guardar una referencia a la fuente y licencia del paquete utilizado.
-5. Evitar depender de enlaces externos durante el juego: los archivos que finalmente utilice RUMBO deben guardarse dentro del proyecto.
+5. Evitar depender de enlaces externos en una versión terminada: los archivos definitivos deberían guardarse dentro del proyecto cuando sea posible.
 6. Reutilizar un mismo recurso cuando sirva para varios lugares en vez de duplicarlo innecesariamente.
 7. Los elementos especialmente importantes de RUMBO pueden recibir arte propio más adelante sin cambiar la lógica del juego.
 
 ## Elementos propios prioritarios
 
-Aunque gran parte del escenario pueda usar recursos externos, estos elementos deberían conservar una identidad propia cuando llegue el momento:
+Aunque gran parte del escenario pueda usar recursos externos, estos elementos pueden recibir una identidad propia cuando llegue el momento:
 
 - Nicolás.
 - Molly.
