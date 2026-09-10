@@ -272,3 +272,12 @@
 .prologue-dialogue__speaker {
   color: #f1d78e;
 }
+
+/* Primer recurso visual propio de RUMBO: piso de madera de Nicolás. */
+.prologue-stage:has(.scene-object[data-object-id="bed"]) {
+  background-image: url("../assets/visual-2d/rumbo/piso-madera.png");
+  background-repeat: repeat;
+  background-size: 46px 46px;
+  background-position: 0 0;
+  image-rendering: pixelated;
+}
