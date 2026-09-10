@@ -1,0 +1,83 @@
+/*
+  Integración visual externa provisional para RUMBO.
+  Sprites: Kenney - Roguelike Characters (CC0).
+  Durante el prototipo se cargan desde un espejo público de GitHub.
+  La lógica, colisiones y posiciones del juego no dependen de estos sprites.
+*/
+
+:root {
+  --kenney-character-sheet: url("https://raw.githubusercontent.com/Two-Weeks-Team/openClawWorld/main/packages/client/public/assets/kenney/characters/characters_spritesheet_rgba.png");
+}
+
+/* Nicolás: primer personaje externo integrado. El frame nativo es 16x16 y se escala x3. */
+.prologue-player {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  background-image: var(--kenney-character-sheet);
+  background-repeat: no-repeat;
+  background-size: 2754px 609px;
+  background-position: 0 0;
+  image-rendering: pixelated;
+  color: transparent;
+  font-size: 0;
+  text-shadow: none;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.22);
+}
+
+/* Conservamos la etiqueta de ropa del prototipo debajo del sprite. */
+.prologue-player::after {
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/*
+  NPC del graybox: el rectángulo sigue existiendo para colisión e interacción,
+  pero visualmente queda transparente y muestra un sprite centrado.
+*/
+.scene-object[data-type="npc"] {
+  overflow: visible;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: transparent;
+  font-size: 0;
+  text-shadow: none;
+}
+
+.scene-object[data-type="npc"]::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 48px;
+  height: 48px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  background-image: var(--kenney-character-sheet);
+  background-repeat: no-repeat;
+  background-size: 2754px 609px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 7px 4px rgba(0, 0, 0, 0.22));
+}
+
+/* Frames provisionales distintos para que Mamá y Papá no se vean iguales. */
+.scene-object[data-object-id="mom"]::before {
+  background-position: -102px 0;
+}
+
+.scene-object[data-object-id="dad"]::before {
+  background-position: -153px 0;
+}
+
+/* Resaltado de interacción sin volver a mostrar el rectángulo del graybox. */
+.scene-object[data-type="npc"].is-near::before {
+  filter: drop-shadow(0 0 5px rgba(243, 220, 145, 0.95)) drop-shadow(0 7px 4px rgba(0, 0, 0, 0.22));
+}
+
+/*
+  Si el recurso remoto no pudiera cargar, el juego continúa siendo jugable:
+  únicamente faltaría la imagen del personaje; la lógica permanece intacta.
+*/
