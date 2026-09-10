@@ -1,0 +1,274 @@
+:root {
+  --room-floor-a: #b9895a;
+  --room-floor-b: #a9774c;
+  --room-edge: #5b4031;
+  --wood-light: #c79a68;
+  --wood-mid: #9a6a46;
+  --wood-dark: #68462f;
+  --fabric-blue: #6f8fa4;
+  --fabric-cream: #d8cbb2;
+  --metal: #9ca8ad;
+  --glass: #b9d9df;
+}
+
+/*
+  Primera capa visual 2D de RUMBO.
+  No modifica la lógica ni las colisiones: solo cambia la presentación.
+*/
+
+.prologue-stage {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80, 50, 30, 0.06) 1px, transparent 1px),
+    linear-gradient(135deg, var(--room-floor-a), var(--room-floor-b));
+  background-size: 48px 48px, 48px 48px, 100% 100%;
+  border: 8px solid var(--room-edge);
+  border-radius: 18px;
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.45), inset 0 0 0 2px rgba(255,255,255,0.08);
+}
+
+.prologue-stage::before {
+  content: "PROTOTIPO VISUAL 2D · ARTE EN DESARROLLO";
+  background: rgba(73, 48, 32, 0.78);
+  color: rgba(255,255,255,0.72);
+}
+
+.scene-title {
+  background: rgba(74, 49, 32, 0.88);
+  border-color: rgba(255, 244, 218, 0.35);
+  color: #fff8e8;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.scene-object {
+  border: 2px solid rgba(67, 44, 30, 0.62);
+  border-radius: 10px;
+  background: var(--wood-mid);
+  color: rgba(255,255,255,0.82);
+  box-shadow: 0 8px 14px rgba(55, 35, 24, 0.28), inset 0 1px rgba(255,255,255,0.13);
+  font-size: 10px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+  transition: transform 110ms ease, box-shadow 110ms ease, filter 110ms ease;
+}
+
+.scene-object.is-near {
+  transform: translateY(-2px);
+  border-color: #f3dc91;
+  box-shadow: 0 0 0 3px rgba(243, 220, 145, 0.18), 0 10px 20px rgba(55,35,24,0.35);
+  filter: brightness(1.06);
+}
+
+.scene-object[data-type="door"] {
+  background: linear-gradient(90deg, #744d31, #986844 55%, #6a452c);
+  border-radius: 7px;
+  border-color: #543620;
+  box-shadow: inset -7px 0 rgba(49, 30, 18, 0.16), 0 7px 12px rgba(0,0,0,0.22);
+}
+
+.scene-object[data-type="door"]::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #d2b36c;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.45);
+}
+
+.scene-object[data-type="npc"] {
+  border-radius: 45% 45% 28% 28%;
+  background: linear-gradient(#d8b08c 0 28%, #668699 29% 68%, #394d59 69% 100%);
+  border-color: rgba(57, 42, 32, 0.7);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.25);
+}
+
+.scene-object[data-type="item"] {
+  background: linear-gradient(135deg, #bc8a4a, #e3ba6c);
+  border-color: #79552f;
+}
+
+.prologue-player {
+  width: 36px;
+  height: 54px;
+  border: 0;
+  border-radius: 45% 45% 30% 30%;
+  background: linear-gradient(#dcb18b 0 27%, #52778d 28% 68%, #334b58 69% 100%);
+  box-shadow: 0 9px 13px rgba(0,0,0,0.28);
+  color: rgba(255,255,255,0.92);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.prologue-player[data-clothes="pijama"] {
+  background: linear-gradient(#dcb18b 0 27%, #7f91b2 28% 100%);
+}
+
+/* Habitación de Nicolás */
+.scene-object[data-object-id="bed"] {
+  background: linear-gradient(#809aad 0 58%, #e1d7c4 59% 76%, #765039 77% 100%);
+  border-radius: 14px;
+}
+
+.scene-object[data-object-id="desk"],
+.scene-object[data-object-id="coffee-table"],
+.scene-object[data-object-id="left-nightstand"],
+.scene-object[data-object-id="right-nightstand"] {
+  background: linear-gradient(#bd8a58, #8b5b37);
+}
+
+.scene-object[data-object-id="window"],
+.scene-object[data-object-id="parents-window"],
+.scene-object[data-object-id="living-window"] {
+  background:
+    linear-gradient(90deg, transparent 46%, rgba(255,255,255,0.55) 47% 53%, transparent 54%),
+    linear-gradient(transparent 46%, rgba(255,255,255,0.55) 47% 53%, transparent 54%),
+    linear-gradient(#9fd0dc, #d7edf0);
+  border: 7px solid #785237;
+  color: #40565a;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="wardrobe"],
+.scene-object[data-object-id="parents-wardrobe"],
+.scene-object[data-object-id="cabinet"],
+.scene-object[data-object-id="bookshelf"] {
+  background: linear-gradient(90deg, #765034, #9a6b46 50%, #70492f 51%);
+}
+
+.scene-object[data-object-id="console"] {
+  background: linear-gradient(#303a43, #151b20);
+  border-color: #0f1418;
+}
+
+.scene-object[data-object-id="world-map"] {
+  background: radial-gradient(circle at 35% 45%, #7bb28a 0 20%, transparent 21%), radial-gradient(circle at 65% 58%, #6aa47b 0 18%, transparent 19%), #79b6c7;
+  border-color: #efe0b9;
+  color: #163942;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="photo"],
+.scene-object[data-object-id="parents-photo"],
+.scene-object[data-object-id="family-frame"],
+.scene-object[data-object-id="family-photo-living"],
+.scene-object[data-object-id="family-photos"] {
+  background: linear-gradient(135deg, #d9c393, #a88a58);
+  border: 6px solid #6f4d30;
+  color: #4b3728;
+  text-shadow: none;
+}
+
+/* Baño */
+.scene-object[data-object-id="sink"],
+.scene-object[data-object-id="toilet"] {
+  background: linear-gradient(#f4f0e7, #cfd6d7);
+  color: #526066;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="mirror"],
+.scene-object[data-object-id="foyer-mirror"] {
+  background: linear-gradient(135deg, #d9eef1, #9dbfc7);
+  border: 7px solid #816044;
+  color: #40555b;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="shower"] {
+  background: linear-gradient(135deg, rgba(235,248,250,0.72), rgba(141,190,201,0.7));
+  border-color: #7d9da4;
+  color: #40585d;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="towel-rack"] {
+  background: linear-gradient(90deg, #e9e2d2 0 45%, #b6d0cf 46% 100%);
+  color: #596765;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="laundry-basket"] {
+  background: repeating-linear-gradient(90deg, #9d744b 0 8px, #c09666 8px 13px);
+}
+
+/* Habitación de los padres */
+.scene-object[data-object-id="parents-bed"] {
+  background: linear-gradient(#a18e9a 0 58%, #eee5d8 59% 76%, #765039 77% 100%);
+  border-radius: 16px;
+}
+
+.scene-object[data-object-id="parents-chair"],
+.scene-object[data-object-id="sofa"] {
+  background: linear-gradient(#788f94, #536e75);
+  border-radius: 20px 20px 12px 12px;
+}
+
+/* Recibidor */
+.scene-object[data-object-id="plant"] {
+  background: radial-gradient(ellipse at 30% 30%, #79a869 0 18%, transparent 19%), radial-gradient(ellipse at 65% 30%, #5f9258 0 22%, transparent 23%), linear-gradient(transparent 0 55%, #9a6844 56% 100%);
+  color: #eff5e8;
+}
+
+.scene-object[data-object-id="shoe-rack"] {
+  background: linear-gradient(#b07a4e, #795033);
+}
+
+/* Sala */
+.scene-object[data-object-id="tv"] {
+  background: linear-gradient(#1d2a31, #090d10);
+  border: 7px solid #303b40;
+}
+
+/* Cocina */
+.scene-object[data-object-id="counter"] {
+  background: linear-gradient(#d7c4a4 0 22%, #9e744f 23% 100%);
+}
+
+.scene-object[data-object-id="sink-kitchen"] {
+  background: linear-gradient(#cfd6d7, #8e9b9f);
+  color: #354449;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="stove"] {
+  background: radial-gradient(circle at 30% 35%, #252a2c 0 12%, transparent 13%), radial-gradient(circle at 70% 35%, #252a2c 0 12%, transparent 13%), linear-gradient(#b8c0c2, #747f83);
+  color: #263336;
+  text-shadow: none;
+}
+
+.scene-object[data-object-id="fridge"] {
+  background: linear-gradient(90deg, #e7ebea, #bfc8c9);
+  color: #465255;
+  text-shadow: none;
+  border-color: #8c999c;
+}
+
+.scene-object[data-object-id="breakfast-table"] {
+  background: radial-gradient(circle at 28% 38%, #e5d9bc 0 8%, transparent 9%), radial-gradient(circle at 70% 58%, #e5d9bc 0 8%, transparent 9%), linear-gradient(#b77d4d, #8a5b37);
+  border-radius: 24px;
+}
+
+.scene-object[data-object-id="birthday-gifts"] {
+  background: linear-gradient(90deg, transparent 47%, rgba(255,245,208,0.85) 48% 53%, transparent 54%), linear-gradient(transparent 45%, rgba(255,245,208,0.85) 46% 54%, transparent 55%), #b66e68;
+  border-color: #7f4540;
+}
+
+.prologue-dev-note {
+  background: rgba(72, 47, 31, 0.78);
+  color: rgba(255,255,255,0.66);
+}
+
+.interaction-prompt,
+.prologue-dialogue,
+.prologue-panel,
+.prologue-intro,
+.prologue-system-panel {
+  border-color: rgba(230, 207, 157, 0.55);
+  background: rgba(49, 35, 27, 0.96);
+}
+
+.prologue-dialogue__speaker {
+  color: #f1d78e;
+}
