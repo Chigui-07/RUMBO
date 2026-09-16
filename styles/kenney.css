@@ -83,37 +83,22 @@
 */
 
 /* ---------------------------------------------------------
-   Pisos propios de RUMBO
-   Los .piskel originales se conservan como archivos editables.
-   Estas versiones PNG son las que usa el navegador.
+   Piso propio de RUMBO
+   Un único bloque de madera se repite por toda la casa de Nico.
+   Las variantes clara y oscura se conservan como recursos disponibles,
+   pero no se reparten por habitaciones.
    --------------------------------------------------------- */
 
-/* Habitación de Nicolás: piso original de 46 x 46. */
-.prologue-stage:has(.scene-object[data-object-id="bed"]) {
+.prologue-stage:has(.scene-object[data-object-id="bed"]),
+.prologue-stage:has(.scene-object[data-object-id="bedroom-door"]),
+.prologue-stage:has(.scene-object[data-object-id="sink"]),
+.prologue-stage:has(.scene-object[data-object-id="parents-bed"]),
+.prologue-stage:has(.scene-object[data-object-id="shoe-rack"]),
+.prologue-stage:has(.scene-object[data-object-id="sofa"]),
+.prologue-stage:has(.scene-object[data-object-id="breakfast-table"]) {
   background-image: url("../assets/visual-2d/rumbo/piso-madera.png");
   background-repeat: repeat;
   background-size: 46px 46px;
-  background-position: 0 0;
-  image-rendering: pixelated;
-}
-
-/* Corredor del segundo piso, recibidor y cocina: madera clara 16 x 16 escalada x3. */
-.prologue-stage:has(.scene-object[data-object-id="bedroom-door"]),
-.prologue-stage:has(.scene-object[data-object-id="shoe-rack"]),
-.prologue-stage:has(.scene-object[data-object-id="breakfast-table"]) {
-  background-image: url("../assets/visual-2d/rumbo/piso-madera-clara.png");
-  background-repeat: repeat;
-  background-size: 48px 48px;
-  background-position: 0 0;
-  image-rendering: pixelated;
-}
-
-/* Habitación de los padres y sala: madera oscura 16 x 16 escalada x3. */
-.prologue-stage:has(.scene-object[data-object-id="parents-bed"]),
-.prologue-stage:has(.scene-object[data-object-id="sofa"]) {
-  background-image: url("../assets/visual-2d/rumbo/piso-madera-oscura.png");
-  background-repeat: repeat;
-  background-size: 48px 48px;
   background-position: 0 0;
   image-rendering: pixelated;
 }
